@@ -12,3 +12,7 @@ Project: Amateur Radio Frequency Germany. React 18 + Vite 7 + Tailwind 3.4 app s
 - Vite `base` is `/Amateur-Radio-Frequency-Germany/` for Pages, `./` for the standalone build.
 - UI language German, code and docs headings English. Dark theme (gray-900), navy table header.
 - Lint must pass (CI runs `npm ci`, lint, build).
+
+## Release
+- Bump `version` in `package.json` and `appVersion` in `src/data/meta.js`, commit, then `git tag vX.Y.Z && git push origin main --tags`.
+- `.github/workflows/release.yml` builds the standalone HTML and creates the GitHub Release with `Amateur-Radio-Frequency-Germany-vX.Y.Z-standalone.html`.

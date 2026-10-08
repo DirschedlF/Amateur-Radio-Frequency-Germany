@@ -1,0 +1,37 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - run: npm ci
+      - run: npm run lint
+
+      - name: Build standalone HTML
+        run: |
+          npm run build:standalone
+          cp dist-standalone/index.html "Amateur-Radio-Frequency-Germany-${GITHUB_REF_NAME}-standalone.html"
+
+      - name: Create GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" \
+            "Amateur-Radio-Frequency-Germany-${GITHUB_REF_NAME}-standalone.html" \
+            --title "Amateur Radio Frequency Germany ${GITHUB_REF_NAME}" \
+            --generate-notes \
+            --notes "Offline-Version als einzelne HTML-Datei: herunterladen und im Browser öffnen. **Angaben ohne Gewähr**, verbindlich ist nur die amtliche AFuV."

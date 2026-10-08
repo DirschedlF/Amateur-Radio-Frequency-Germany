@@ -40,6 +40,14 @@ npm run build:standalone   # single HTML file -> dist-standalone/
 npm run lint
 ```
 
+## 💾 Offline / Standalone Version
+
+A **single self-contained HTML file** is available as a release asset:
+
+**[⬇ Download Standalone HTML](https://github.com/DirschedlF/Amateur-Radio-Frequency-Germany/releases/latest)**
+
+Download `Amateur-Radio-Frequency-Germany-vX.X.X-standalone.html` and open it in your browser. No server, no installation, no internet required.
+
 ## 🧭 Usage
 
 1. Search or filter by class (A/E/N), status (P/S) or frequency range.
