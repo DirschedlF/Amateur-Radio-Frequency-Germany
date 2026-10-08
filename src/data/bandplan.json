@@ -1,0 +1,1441 @@
+{
+ "sources": {
+  "hf": {
+   "title": "IARU Region 1 HF Band Plan",
+   "effective": "16.10.2020",
+   "editor": "DF5JL",
+   "note": "Erstellt nach der Region-1-Konferenz Novi Sad 2020"
+  },
+  "vhf": {
+   "title": "IARU Region 1 VHF Band Plan",
+   "effective": "Dezember 2020 (VGC Novi Sad)",
+   "editor": "ON4AVJ (02.12.2020)"
+  },
+  "uhf": {
+   "title": "IARU Region 1 UHF Band Plan",
+   "effective": "Dezember 2020 (VGC Novi Sad)",
+   "editor": "ON4AVJ (PDF vom 18.03.2021)"
+  }
+ },
+ "hfNotes": [
+  "Frequenzangaben sind Sendefrequenzen („transmitted frequencies“), nicht die des unterdrückten Trägers.",
+  "Seitenband: unter 10 MHz wird LSB empfohlen, ab 10 MHz USB, auf 60 m USB.",
+  "CW-Verbindungen sind in allen Bändern außerhalb der Bakensegmente üblich.",
+  "AM ist in Telefoniesegmenten möglich, wenn auf Nachbarkanäle Rücksicht genommen wird.",
+  "Damit keine Aussendung außerhalb des Bandes erfolgt, sollte die höchste USB-Dial-Einstellung auf 20 m bis 10 m 3 kHz unter der oberen Bandkante liegen.",
+  "Contests sollen nicht auf 60 m, 30 m, 17 m und 12 m stattfinden. Nicht-Contester werden gebeten, bei großen Contests auf diese Bänder auszuweichen.",
+  "Unbemannte Sendestationen sollen nur unter Operator-Kontrolle aktiviert werden (Ausnahme: mit dem IARU-Region-1-Beacon-Koordinator abgestimmte Baken) und müssen Frequenz- und Bandbreitengrenzen einhalten.",
+  "Fernbedienter Betrieb: Er muss von der Regulierungsbehörde des Standortlandes erlaubt sein, und es gilt das dort zugeteilte Rufzeichen."
+ ],
+ "definitions": [
+  {
+   "term": "All modes",
+   "text": "CW, Telefonie und die als Centre of Activity genannten Betriebsarten sowie AM (mit Rücksicht auf Nachbarkanäle)."
+  },
+  {
+   "term": "Narrow band modes",
+   "text": "Alle Betriebsarten bis 500 Hz Bandbreite, einschließlich CW, RTTY, PSK usw."
+  },
+  {
+   "term": "Digimodes",
+   "text": "Jede digitale Betriebsart innerhalb der passenden Bandbreite, z. B. RTTY, PSK, MFSK."
+  },
+  {
+   "term": "Image modes",
+   "text": "Analoge oder digitale Bildübertragung innerhalb der passenden Bandbreite, z. B. SSTV, FAX."
+  }
+ ],
+ "bands": [
+  {
+   "id": "2200m",
+   "label": "2200 m",
+   "title": "135,7 – 137,8 kHz",
+   "src": "hf",
+   "unit": "kHz",
+   "rows": [
+    {
+     "f": 0.1357,
+     "t": 0.1378,
+     "bw": 200,
+     "mode": "CW",
+     "cat": "cw",
+     "use": "CW, QRSS and narrow band digital modes"
+    }
+   ],
+   "notes": []
+  },
+  {
+   "id": "630m",
+   "label": "630 m",
+   "title": "472 – 479 kHz",
+   "src": "hf",
+   "unit": "kHz",
+   "rows": [
+    {
+     "f": 0.472,
+     "t": 0.475,
+     "bw": 200,
+     "mode": "CW",
+     "cat": "cw",
+     "use": "CW"
+    },
+    {
+     "f": 0.475,
+     "t": 0.479,
+     "bw": "(#) nicht festgelegt, 500 Hz empfohlen",
+     "mode": "Narrow band modes",
+     "cat": "narrow",
+     "use": "CW, digimodes"
+    }
+   ],
+   "notes": [
+    "Angaben sind laut Quelle „proposed usage“ (Empfehlung). Auf noch bestehende Funkfeuer (NDB) des Flugnavigationsfunks achten."
+   ]
+  },
+  {
+   "id": "160m",
+   "label": "160 m",
+   "title": "1.810 – 2.000 kHz",
+   "src": "hf",
+   "unit": "kHz",
+   "rows": [
+    {
+     "f": 1.81,
+     "t": 1.838,
+     "bw": 200,
+     "mode": "CW",
+     "cat": "cw",
+     "use": "1836 kHz – CW QRP Centre of Activity"
+    },
+    {
+     "f": 1.838,
+     "t": 1.84,
+     "bw": 500,
+     "mode": "Narrow band modes",
+     "cat": "narrow",
+     "use": ""
+    },
+    {
+     "f": 1.84,
+     "t": 1.843,
+     "bw": 2700,
+     "mode": "All modes (1)",
+     "cat": "all",
+     "use": "Digimodes"
+    },
+    {
+     "f": 1.843,
+     "t": 2.0,
+     "bw": 2700,
+     "mode": "All modes (1)",
+     "cat": "all",
+     "use": ""
+    }
+   ],
+   "notes": [
+    "(1) Niedrigste Dial-Einstellung für LSB-Sprache: 1843 kHz."
+   ]
+  },
+  {
+   "id": "80m",
+   "label": "80 m",
+   "title": "3.500 – 3.800 kHz",
+   "src": "hf",
+   "unit": "kHz",
+   "rows": [
+    {
+     "f": 3.5,
+     "t": 3.51,
+     "bw": 200,
+     "mode": "CW",
+     "cat": "cw",
+     "use": "Priority for inter-continental operation"
+    },
+    {
+     "f": 3.51,
+     "t": 3.56,
+     "bw": 200,
+     "mode": "CW",
+     "cat": "cw",
+     "use": "CW contest preferred; 3555 kHz – CW QRS Centre of Activity"
+    },
+    {
+     "f": 3.56,
+     "t": 3.57,
+     "bw": 200,
+     "mode": "CW",
+     "cat": "cw",
+     "use": "3560 kHz – CW QRP Centre of Activity"
+    },
+    {
+     "f": 3.57,
+     "t": 3.58,
+     "bw": 200,
+     "mode": "Narrow band modes",
+     "cat": "narrow",
+     "use": "Digimodes"
+    },
+    {
+     "f": 3.58,
+     "t": 3.59,
+     "bw": 500,
+     "mode": "Narrow band modes",
+     "cat": "narrow",
+     "use": "Digimodes"
+    },
+    {
+     "f": 3.59,
+     "t": 3.6,
+     "bw": 500,
+     "mode": "Narrow band modes",
+     "cat": "narrow",
+     "use": "Digimodes, automatically controlled data stations (unattended)"
+    },
+    {
+     "f": 3.6,
+     "t": 3.62,
+     "bw": 2700,
+     "mode": "All modes (1)",
+     "cat": "all",
+     "use": "Digimodes, automatically controlled data stations (unattended)",
+     "overlap": true
+    },
+    {
+     "f": 3.6,
+     "t": 3.65,
+     "bw": 2700,
+     "mode": "All modes (1)",
+     "cat": "all",
+     "use": "SSB contest preferred; 3630 kHz – Digital Voice Centre of Activity",
+     "overlap": true
+    },
+    {
+     "f": 3.65,
+     "t": 3.7,
+     "bw": 2700,
+     "mode": "All modes",
+     "cat": "all",
+     "use": "3690 kHz – SSB QRP Centre of Activity"
+    },
+    {
+     "f": 3.7,
+     "t": 3.775,
+     "bw": 2700,
+     "mode": "All modes",
+     "cat": "all",
+     "use": "SSB contest preferred; 3735 kHz – Image Centre of Activity; 3760 kHz – R1 Emergency Centre of Activity"
+    },
+    {
+     "f": 3.775,
+     "t": 3.8,
+     "bw": 2700,
+     "mode": "All modes",
+     "cat": "all",
+     "use": "SSB contest preferred – Priority for inter-continental operation"
+    }
+   ],
+   "notes": [
+    "(1) Niedrigste Dial-Einstellung für LSB-Sprache: 3603 kHz.",
+    "Die Segmente 3600–3620 und 3600–3650 kHz überlappen sich in der Quelle so."
+   ]
+  },
+  {
+   "id": "60m",
+   "label": "60 m",
+   "title": "5.351,5 – 5.366,5 kHz",
+   "src": "hf",
+   "unit": "kHz",
+   "rows": [
+    {
+     "f": 5.3515,
+     "t": 5.354,
+     "bw": 200,
+     "mode": "CW, Narrow band modes",
+     "cat": "narrow",
+     "use": ""
+    },
+    {
+     "f": 5.354,
+     "t": 5.366,
+     "bw": 2700,
+     "mode": "All modes",
+     "cat": "all",
+     "use": "USB recommended for voice operation (##)"
+    },
+    {
+     "f": 5.366,
+     "t": 5.3665,
+     "bw": "20 (!)",
+     "mode": "Weak signal narrow band modes",
+     "cat": "narrow",
+     "use": ""
+    }
+   ],
+   "notes": [
+    "Angaben sind laut Quelle „proposed usage“ (Empfehlung).",
+    "(##) Höchste Dial-Einstellung für USB-Sprache: 5363 kHz.",
+    "Frequenzen innerhalb der WRC-15-Zuweisung sollen nur genutzt werden, wenn keine andere Frequenz im 5-MHz-Bereich nach nationaler Genehmigung verfügbar ist. Lokale Runden und lange Ragchews sollen auf 80 m, 40 m oder die nationalen 5-MHz-Frequenzen ausweichen."
+   ]
+  },
+  {
+   "id": "40m",
+   "label": "40 m",
+   "title": "7.000 – 7.200 kHz",
+   "src": "hf",
+   "unit": "kHz",
+   "rows": [
+    {
+     "f": 7.0,
+     "t": 7.04,
+     "bw": 200,
+     "mode": "CW",
+     "cat": "cw",
+     "use": "7030 kHz – CW, QRP Centre of Activity"
+    },
+    {
+     "f": 7.04,
+     "t": 7.047,
+     "bw": 500,
+     "mode": "Narrow band modes",
+     "cat": "narrow",
+     "use": "Digimodes"
+    },
+    {
+     "f": 7.047,
+     "t": 7.05,
+     "bw": 500,
+     "mode": "Narrow band modes",
+     "cat": "narrow",
+     "use": "Digimodes, automatically controlled data stations (unattended)"
+    },
+    {
+     "f": 7.05,
+     "t": 7.053,
+     "bw": 2700,
+     "mode": "All modes (1)",
+     "cat": "all",
+     "use": "Digimodes, automatically controlled data stations (unattended)"
+    },
+    {
+     "f": 7.053,
+     "t": 7.06,
+     "bw": 2700,
+     "mode": "All modes",
+     "cat": "all",
+     "use": "Digimodes"
+    },
+    {
+     "f": 7.06,
+     "t": 7.1,
+     "bw": 2700,
+     "mode": "All modes",
+     "cat": "all",
+     "use": "SSB contest preferred; 7070 kHz – Digital Voice Centre of Activity; 7090 kHz – SSB QRP Centre of Activity"
+    },
+    {
+     "f": 7.1,
+     "t": 7.13,
+     "bw": 2700,
+     "mode": "All modes",
+     "cat": "all",
+     "use": "7110 kHz – Region 1 Emergency Centre"
+    },
+    {
+     "f": 7.13,
+     "t": 7.175,
+     "bw": 2700,
+     "mode": "All modes",
+     "cat": "all",
+     "use": "SSB contest preferred; 7165 kHz – Image Centre of Activity"
+    },
+    {
+     "f": 7.175,
+     "t": 7.2,
+     "bw": 2700,
+     "mode": "All modes",
+     "cat": "all",
+     "use": "SSB contest preferred – Priority for inter-continental Activity"
+    }
+   ],
+   "notes": [
+    "(1) Niedrigste Dial-Einstellung für LSB-Sprache: 7053 kHz."
+   ]
+  },
+  {
+   "id": "30m",
+   "label": "30 m",
+   "title": "10.100 – 10.150 kHz",
+   "src": "hf",
+   "unit": "kHz",
+   "rows": [
+    {
+     "f": 10.1,
+     "t": 10.13,
+     "bw": 200,
+     "mode": "CW",
+     "cat": "cw",
+     "use": "10116 kHz – CW QRP Centre of Activity"
+    },
+    {
+     "f": 10.13,
+     "t": 10.15,
+     "bw": 500,
+     "mode": "Narrow band modes",
+     "cat": "narrow",
+     "use": "Digimodes"
+    }
+   ],
+   "notes": [
+    "Der Amateurfunkdienst hat auf 30 m nur sekundären Status. Wer sich mit einer unbemannten automatisch arbeitenden Station verbindet, ist selbst für Störungsfreiheit verantwortlich."
+   ]
+  },
+  {
+   "id": "20m",
+   "label": "20 m",
+   "title": "14.000 – 14.350 kHz",
+   "src": "hf",
+   "unit": "kHz",
+   "rows": [
+    {
+     "f": 14.0,
+     "t": 14.06,
+     "bw": 200,
+     "mode": "CW",
+     "cat": "cw",
+     "use": "CW contest preferred; 14055 kHz – QRS Centre of Activity"
+    },
+    {
+     "f": 14.06,
+     "t": 14.07,
+     "bw": 200,
+     "mode": "CW",
+     "cat": "cw",
+     "use": "14060 kHz – CW QRP Centre of Activity"
+    },
+    {
+     "f": 14.07,
+     "t": 14.089,
+     "bw": 500,
+     "mode": "Narrow band modes",
+     "cat": "narrow",
+     "use": "Digimodes"
+    },
+    {
+     "f": 14.089,
+     "t": 14.099,
+     "bw": 500,
+     "mode": "Narrow band modes",
+     "cat": "narrow",
+     "use": "Digimodes, automatically controlled data stations (unattended)"
+    },
+    {
+     "f": 14.099,
+     "t": 14.101,
+     "bw": "",
+     "mode": "International Beacon Project",
+     "cat": "beacon",
+     "use": "Beacons exclusively"
+    },
+    {
+     "f": 14.101,
+     "t": 14.112,
+     "bw": 2700,
+     "mode": "All modes",
+     "cat": "all",
+     "use": "Digimodes, automatically controlled data stations (unattended)"
+    },
+    {
+     "f": 14.112,
+     "t": 14.125,
+     "bw": 2700,
+     "mode": "All modes",
+     "cat": "all",
+     "use": ""
+    },
+    {
+     "f": 14.125,
+     "t": 14.3,
+     "bw": 2700,
+     "mode": "All modes",
+     "cat": "all",
+     "use": "SSB contest preferred; 14130 kHz – Digital Voice CoA; 14195 ±5 kHz – Priority for DX-peditions; 14230 kHz – Image CoA; 14285 kHz – SSB QRP CoA"
+    },
+    {
+     "f": 14.3,
+     "t": 14.35,
+     "bw": 2700,
+     "mode": "All modes",
+     "cat": "all",
+     "use": "14300 kHz – Global Emergency Centre of Activity"
+    }
+   ],
+   "notes": []
+  },
+  {
+   "id": "17m",
+   "label": "17 m",
+   "title": "18.068 – 18.168 kHz",
+   "src": "hf",
+   "unit": "kHz",
+   "rows": [
+    {
+     "f": 18.068,
+     "t": 18.095,
+     "bw": 200,
+     "mode": "CW",
+     "cat": "cw",
+     "use": "18086 kHz – CW QRP Centre of Activity"
+    },
+    {
+     "f": 18.095,
+     "t": 18.105,
+     "bw": 500,
+     "mode": "Narrow band modes",
+     "cat": "narrow",
+     "use": "Digimodes"
+    },
+    {
+     "f": 18.105,
+     "t": 18.109,
+     "bw": 500,
+     "mode": "Narrow band modes",
+     "cat": "narrow",
+     "use": "Digimodes, automatically controlled data stations (unattended)"
+    },
+    {
+     "f": 18.109,
+     "t": 18.111,
+     "bw": "",
+     "mode": "International Beacon Project",
+     "cat": "beacon",
+     "use": "Beacons exclusively"
+    },
+    {
+     "f": 18.111,
+     "t": 18.12,
+     "bw": 2700,
+     "mode": "All modes",
+     "cat": "all",
+     "use": "Digimodes, automatically controlled data stations (unattended)"
+    },
+    {
+     "f": 18.12,
+     "t": 18.168,
+     "bw": 2700,
+     "mode": "All modes",
+     "cat": "all",
+     "use": "18130 kHz – SSB QRP CoA; 18150 kHz – Digital Voice CoA; 18160 kHz – Emergency CoA"
+    }
+   ],
+   "notes": []
+  },
+  {
+   "id": "15m",
+   "label": "15 m",
+   "title": "21.000 – 21.450 kHz",
+   "src": "hf",
+   "unit": "kHz",
+   "rows": [
+    {
+     "f": 21.0,
+     "t": 21.07,
+     "bw": 200,
+     "mode": "CW",
+     "cat": "cw",
+     "use": "21055 kHz – QRS Centre of Activity; 21060 kHz – QRP Centre of Activity"
+    },
+    {
+     "f": 21.07,
+     "t": 21.09,
+     "bw": 500,
+     "mode": "Narrow band modes",
+     "cat": "narrow",
+     "use": "Digimodes"
+    },
+    {
+     "f": 21.09,
+     "t": 21.11,
+     "bw": 500,
+     "mode": "Narrow band modes",
+     "cat": "narrow",
+     "use": "Digimodes, automatically controlled data stations (unattended)"
+    },
+    {
+     "f": 21.11,
+     "t": 21.12,
+     "bw": 2700,
+     "mode": "All modes",
+     "cat": "all",
+     "use": "Digimodes, automatically controlled data stations (unattended), (not SSB)"
+    },
+    {
+     "f": 21.12,
+     "t": 21.149,
+     "bw": 500,
+     "mode": "Narrow band modes",
+     "cat": "narrow",
+     "use": ""
+    },
+    {
+     "f": 21.149,
+     "t": 21.151,
+     "bw": "",
+     "mode": "International Beacon Project",
+     "cat": "beacon",
+     "use": "Beacons exclusively"
+    },
+    {
+     "f": 21.151,
+     "t": 21.45,
+     "bw": 2700,
+     "mode": "All modes",
+     "cat": "all",
+     "use": "21180 kHz – Digital Voice CoA; 21285 kHz – SSB QRP CoA; 21340 kHz – Image CoA; 21360 kHz – Global Emergency CoA"
+    }
+   ],
+   "notes": [
+    "Seit 2020: Segment 21125–21450 kHz ist für Amateurfunksatelliten nicht exklusiv vorgesehen, Frequenzen oberhalb 21400 kHz werden klar bevorzugt."
+   ]
+  },
+  {
+   "id": "12m",
+   "label": "12 m",
+   "title": "24.890 – 24.990 kHz",
+   "src": "hf",
+   "unit": "kHz",
+   "rows": [
+    {
+     "f": 24.89,
+     "t": 24.915,
+     "bw": 200,
+     "mode": "CW",
+     "cat": "cw",
+     "use": "24906 kHz – CW QRP Centre of Activity"
+    },
+    {
+     "f": 24.915,
+     "t": 24.925,
+     "bw": 500,
+     "mode": "Narrow band modes",
+     "cat": "narrow",
+     "use": "Digimodes"
+    },
+    {
+     "f": 24.925,
+     "t": 24.929,
+     "bw": 500,
+     "mode": "Narrow band modes",
+     "cat": "narrow",
+     "use": "Digimodes, automatically controlled data stations (unattended)"
+    },
+    {
+     "f": 24.929,
+     "t": 24.931,
+     "bw": "",
+     "mode": "International Beacon Project",
+     "cat": "beacon",
+     "use": "Beacons exclusively"
+    },
+    {
+     "f": 24.931,
+     "t": 24.94,
+     "bw": 2700,
+     "mode": "All modes",
+     "cat": "all",
+     "use": "Digimodes, automatically controlled data stations (unattended)"
+    },
+    {
+     "f": 24.94,
+     "t": 24.99,
+     "bw": 2700,
+     "mode": "All modes",
+     "cat": "all",
+     "use": "24950 kHz – SSB QRP CoA; 24960 kHz – Digital Voice CoA"
+    }
+   ],
+   "notes": []
+  },
+  {
+   "id": "10m",
+   "label": "10 m",
+   "title": "28.000 – 29.700 kHz",
+   "src": "hf",
+   "unit": "kHz",
+   "rows": [
+    {
+     "f": 28.0,
+     "t": 28.07,
+     "bw": 200,
+     "mode": "CW",
+     "cat": "cw",
+     "use": "28055 kHz – QRS Centre of Activity; 28060 kHz – QRP Centre of Activity"
+    },
+    {
+     "f": 28.07,
+     "t": 28.12,
+     "bw": 500,
+     "mode": "Narrow band modes",
+     "cat": "narrow",
+     "use": "Digimodes"
+    },
+    {
+     "f": 28.12,
+     "t": 28.15,
+     "bw": 500,
+     "mode": "Narrow band modes",
+     "cat": "narrow",
+     "use": "Digimodes, automatically controlled data stations (unattended)"
+    },
+    {
+     "f": 28.15,
+     "t": 28.19,
+     "bw": 500,
+     "mode": "Narrow band modes",
+     "cat": "narrow",
+     "use": ""
+    },
+    {
+     "f": 28.19,
+     "t": 28.199,
+     "bw": "",
+     "mode": "International Beacon Project",
+     "cat": "beacon",
+     "use": "Regional time shared beacons, exclusively"
+    },
+    {
+     "f": 28.199,
+     "t": 28.201,
+     "bw": "",
+     "mode": "International Beacon Project",
+     "cat": "beacon",
+     "use": "Worldwide time shared beacons, exclusively"
+    },
+    {
+     "f": 28.201,
+     "t": 28.225,
+     "bw": "",
+     "mode": "International Beacon Project",
+     "cat": "beacon",
+     "use": "Continuous duty beacons, exclusively"
+    },
+    {
+     "f": 28.225,
+     "t": 28.3,
+     "bw": 2700,
+     "mode": "All modes",
+     "cat": "all",
+     "use": "Beacons"
+    },
+    {
+     "f": 28.3,
+     "t": 28.32,
+     "bw": 2700,
+     "mode": "All modes",
+     "cat": "all",
+     "use": "Digimodes, automatically controlled data stations (unattended)"
+    },
+    {
+     "f": 28.32,
+     "t": 29.0,
+     "bw": 2700,
+     "mode": "All modes",
+     "cat": "all",
+     "use": "28330 kHz – Digital Voice CoA; 28360 kHz – SSB QRP CoA; 28680 kHz – Image CoA"
+    },
+    {
+     "f": 29.0,
+     "t": 29.1,
+     "bw": "unrestricted",
+     "mode": "All modes",
+     "cat": "all",
+     "use": ""
+    },
+    {
+     "f": 29.1,
+     "t": 29.2,
+     "bw": "unrestricted",
+     "mode": "All modes",
+     "cat": "fm",
+     "use": "FM simplex – 10 kHz channels"
+    },
+    {
+     "f": 29.2,
+     "t": 29.3,
+     "bw": "unrestricted",
+     "mode": "All modes",
+     "cat": "all",
+     "use": "Digimodes, automatically controlled data stations (unattended)"
+    },
+    {
+     "f": 29.3,
+     "t": 29.51,
+     "bw": "unrestricted",
+     "mode": "Satellite Links",
+     "cat": "sat",
+     "use": ""
+    },
+    {
+     "f": 29.51,
+     "t": 29.52,
+     "bw": "",
+     "mode": "Guard Channel",
+     "cat": "other",
+     "use": ""
+    },
+    {
+     "f": 29.52,
+     "t": 29.59,
+     "bw": 6000,
+     "mode": "All modes",
+     "cat": "fm",
+     "use": "FM Repeater input (RH1–RH8)"
+    },
+    {
+     "f": 29.6,
+     "t": 29.6,
+     "bw": 6000,
+     "mode": "All modes",
+     "cat": "fm",
+     "use": "FM Calling channel"
+    },
+    {
+     "f": 29.61,
+     "t": 29.61,
+     "bw": 6000,
+     "mode": "All modes",
+     "cat": "fm",
+     "use": "FM Simplex Repeater (parrot, input + output)"
+    },
+    {
+     "f": 29.62,
+     "t": 29.7,
+     "bw": 6000,
+     "mode": "All modes",
+     "cat": "fm",
+     "use": "FM Repeater output (RH1–RH8)"
+    }
+   ],
+   "notes": []
+  },
+  {
+   "id": "6m",
+   "label": "6 m",
+   "title": "50 – 54 MHz",
+   "src": "vhf",
+   "unit": "MHz",
+   "rows": [
+    {
+     "f": 50.0,
+     "t": 50.1,
+     "bw": 500,
+     "mode": "Telegraphy",
+     "cat": "cw",
+     "use": "Coordinated Beacon Project (50.000–50.010 Region 1, 50.010–50.020 Region 2, 50.020–50.030 Region 3); 50.050 centre of activity; 50.090 intercontinental centre of activity"
+    },
+    {
+     "f": 50.1,
+     "t": 50.2,
+     "bw": 2700,
+     "mode": "SSB and Telegraphy",
+     "cat": "all",
+     "use": "50.100–50.130 intercontinental, centre of activity 50.110; 50.130–50.200 international, centre of activity 50.150"
+    },
+    {
+     "f": 50.2,
+     "t": 50.3,
+     "bw": 2700,
+     "mode": "SSB and Telegraphy",
+     "cat": "all",
+     "use": "General use; 50.285 crossband"
+    },
+    {
+     "f": 50.3,
+     "t": 50.4,
+     "bw": 2700,
+     "mode": "Narrow band modes, MGM",
+     "cat": "narrow",
+     "use": "50.305 PSK centre of activity; 50.310–50.320 EME centre of activity; 50.320–50.380 MS centre of activity"
+    },
+    {
+     "f": 50.4,
+     "t": 50.5,
+     "bw": 1000,
+     "mode": "MGM and Telegraphy",
+     "cat": "beacon",
+     "use": "Beacons exclusive (50.401 MHz ±500 Hz WSPR beacons)"
+    },
+    {
+     "f": 50.5,
+     "t": 52.0,
+     "bw": "12 kHz",
+     "mode": "all mode",
+     "cat": "all",
+     "use": "50.510 SSTV; 50.520–50.540 Simplex FM Internet Voice Gateways; 50.550 Image working frequency; 50.600 RTTY (FSK); 50.620–50.750 Digital communications; 50.630 Digital Voice (DV) calling; 51.210–51.390 FM/DV Repeater Inputs; 51.410–51.590 FM/DV Simplex; 51.510 FM calling frequency; 51.810–51.990 FM repeaters output channels",
+     "umbrella": true
+    },
+    {
+     "f": 50.5,
+     "t": 50.7,
+     "bw": "none",
+     "mode": "all mode",
+     "cat": "all",
+     "use": "50.540–50.580 Simplex FM/DV Internet Voice Gateways; 50.600–50.700 Digital communications, including 50.630 DV calling"
+    },
+    {
+     "f": 50.7,
+     "t": 50.9,
+     "bw": "12 kHz",
+     "mode": "FM/Digital voice",
+     "cat": "fm",
+     "use": "50.710–50.890 FM/DV repeater output channels"
+    },
+    {
+     "f": 50.9,
+     "t": 51.2,
+     "bw": "none",
+     "mode": "all mode",
+     "cat": "all",
+     "use": "For wideband digital experiments"
+    },
+    {
+     "f": 51.2,
+     "t": 51.4,
+     "bw": "12 kHz",
+     "mode": "FM/Digital voice",
+     "cat": "fm",
+     "use": "51.210–51.390 FM/DV Repeater Input channels"
+    },
+    {
+     "f": 51.4,
+     "t": 52.0,
+     "bw": "none",
+     "mode": "all mode",
+     "cat": "fm",
+     "use": "51.410–51.590 FM/DV Simplex; 51.510 FM calling frequency; 51.810–51.990 FM/DV repeaters output channels; for wideband digital experiments"
+    },
+    {
+     "f": 52.0,
+     "t": 54.0,
+     "bw": "500 kHz",
+     "mode": "all mode",
+     "cat": "all",
+     "use": ""
+    }
+   ],
+   "notes": [
+    "Das Segment 50,500–52,000 MHz ist in der Quelle zusätzlich in Unterbereiche gegliedert. Die Zeile „übergeordnet“ gibt die Gesamtangabe der Quelle wieder, die Unterzeilen darunter die Einzelsegmente."
+   ]
+  },
+  {
+   "id": "4m",
+   "label": "4 m",
+   "title": "70 – 70,5 MHz",
+   "src": "vhf",
+   "unit": "MHz",
+   "rows": [
+    {
+     "f": 70.0,
+     "t": 70.09,
+     "bw": 1000,
+     "mode": "MGM and Telegraphy",
+     "cat": "beacon",
+     "use": "Coordinated beacons"
+    },
+    {
+     "f": 70.09,
+     "t": 70.1,
+     "bw": 1000,
+     "mode": "MGM and Telegraphy",
+     "cat": "beacon",
+     "use": "Temporary and personal beacons; 70.091 Personal WSPR beacons"
+    },
+    {
+     "f": 70.1,
+     "t": 70.25,
+     "bw": 2700,
+     "mode": "SSB, Telegraphy, MGM",
+     "cat": "all",
+     "use": "70.185 Crossband centre of activity; 70.200 Centre of activity CW/SSB calling; 70.250 Centre of activity MS"
+    },
+    {
+     "f": 70.25,
+     "t": 70.294,
+     "bw": "12 kHz",
+     "mode": "AM, FM",
+     "cat": "fm",
+     "use": "70.260 AM/FM calling; 70.270 MGM centre of activity"
+    },
+    {
+     "f": 70.294,
+     "t": 70.5,
+     "bw": "12 kHz",
+     "mode": "FM Channels 12,5 kHz spacing",
+     "cat": "fm",
+     "use": "70.3125 digital communications; 70.3250 digital communications; 70.4500 FM calling; 70.4875 digital communications"
+    }
+   ],
+   "notes": []
+  },
+  {
+   "id": "2m",
+   "label": "2 m",
+   "title": "144 – 146 MHz",
+   "src": "vhf",
+   "unit": "MHz",
+   "rows": [
+    {
+     "f": 144.0,
+     "t": 144.025,
+     "bw": 2700,
+     "mode": "all mode",
+     "cat": "sat",
+     "use": "satellite downlink only"
+    },
+    {
+     "f": 144.025,
+     "t": 144.1,
+     "bw": 500,
+     "mode": "Telegraphy",
+     "cat": "cw",
+     "use": "144.050 Telegraphy calling"
+    },
+    {
+     "f": 144.1,
+     "t": 144.15,
+     "bw": 500,
+     "mode": "MGM and Telegraphy",
+     "cat": "narrow",
+     "use": "144.100 Random MS; 144.110–144.160 CW and MGM EME"
+    },
+    {
+     "f": 144.15,
+     "t": 144.4,
+     "bw": 2700,
+     "mode": "SSB, Telegraphy, MGM",
+     "cat": "all",
+     "use": "144.195–144.205 Random MS SSB; 144.300 SSB centre of activity"
+    },
+    {
+     "f": 144.4,
+     "t": 144.49,
+     "bw": 500,
+     "mode": "MGM and Telegraphy",
+     "cat": "beacon",
+     "use": "Beacons exclusive"
+    },
+    {
+     "f": 144.491,
+     "t": 144.493,
+     "bw": 500,
+     "mode": "Personal weak signal MGM, Beacons",
+     "cat": "beacon",
+     "use": "Experimental MGM"
+    },
+    {
+     "f": 144.5,
+     "t": 144.794,
+     "bw": "20 kHz",
+     "mode": "All mode",
+     "cat": "all",
+     "use": "144.500 Image mode centre (SSTV, Fax, …); 144.600 Data centre of activity (MGM, RTTY, …); 144.750 ATV talk back"
+    },
+    {
+     "f": 144.794,
+     "t": 144.9625,
+     "bw": "12 kHz",
+     "mode": "MGM / Digital communication",
+     "cat": "narrow",
+     "use": "144.800 APRS; 144.8125, 144.8250, 144.8375, 144.8500, 144.8625 DV internet voice gateway"
+    },
+    {
+     "f": 144.975,
+     "t": 145.194,
+     "bw": "12 kHz",
+     "mode": "FM/Digital Voice",
+     "cat": "fm",
+     "use": "Repeater input exclusive"
+    },
+    {
+     "f": 145.194,
+     "t": 145.206,
+     "bw": "12 kHz",
+     "mode": "FM/Digital Voice",
+     "cat": "sat",
+     "use": "Space communication"
+    },
+    {
+     "f": 145.206,
+     "t": 145.5625,
+     "bw": "12 kHz",
+     "mode": "FM/Digital Voice",
+     "cat": "fm",
+     "use": "145.2375, 145.2875, 145.3375 FM Internet Voice Gateway; 145.375 digital voice calling; 145.500 FM calling"
+    },
+    {
+     "f": 145.575,
+     "t": 145.7935,
+     "bw": "12 kHz",
+     "mode": "FM/Digital Voice",
+     "cat": "fm",
+     "use": "Repeater output exclusive"
+    },
+    {
+     "f": 145.794,
+     "t": 145.806,
+     "bw": "12 kHz",
+     "mode": "FM/Digital Voice",
+     "cat": "sat",
+     "use": "Space communication"
+    },
+    {
+     "f": 145.806,
+     "t": 146.0,
+     "bw": "12 kHz",
+     "mode": "All mode",
+     "cat": "sat",
+     "use": "Satellite exclusive"
+    }
+   ],
+   "notes": [
+    "In dieser Tabelle der IARU ist 144,9625–144,975 MHz nicht belegt. Das DARC-Referat VHF/UHF/SHF führt außerdem einen eigenen 2-m-Bandplan (Stand 08/2017) mit abweichender Detailgliederung."
+   ]
+  },
+  {
+   "id": "70cm",
+   "label": "70 cm",
+   "title": "430 – 440 MHz",
+   "src": "uhf",
+   "unit": "MHz",
+   "rows": [
+    {
+     "f": 430.0,
+     "t": 431.975,
+     "bw": "20 kHz",
+     "mode": "all mode",
+     "cat": "fm",
+     "use": "430.025–430.375 FM repeater output (1.6 MHz shift); 430.400–430.575 digital communications; 430.600–430.925 digital communications repeater channels; 430.925–431.025 multimode channels; 431.050–431.825 repeater input channel freqs (7.6 MHz shift); 431.625–431.975 repeater input channels (1.6 MHz shift)"
+    },
+    {
+     "f": 432.0,
+     "t": 432.1,
+     "bw": 500,
+     "mode": "MGM & Telegraphy",
+     "cat": "cw",
+     "use": "432.050 Telegraphy centre of activity"
+    },
+    {
+     "f": 432.1,
+     "t": 432.4,
+     "bw": 2700,
+     "mode": "MGM, Telegraphy & SSB",
+     "cat": "all",
+     "use": "432.200 SSB centre of activity; 432.350 Microwave talkback centre of activity; 432.370 Meteor Scatter centre of activity"
+    },
+    {
+     "f": 432.4,
+     "t": 432.49,
+     "bw": 500,
+     "mode": "MGM & Telegraphy",
+     "cat": "beacon",
+     "use": "Beacons exclusive"
+    },
+    {
+     "f": 432.191,
+     "t": 432.193,
+     "bw": 500,
+     "mode": "EMGM",
+     "cat": "other",
+     "use": "Experimental MGM",
+     "quirk": "Bereichsangabe so in der Quelle (liegt unterhalb des vorherigen Segments)."
+    },
+    {
+     "f": 432.5,
+     "t": 432.975,
+     "bw": "12 kHz",
+     "mode": "all mode",
+     "cat": "fm",
+     "use": "432.500 New APRS frequency; 432.600–432.9875 Repeater input Region 1 standard, 25 kHz spacing, 2 MHz shift (channel freq 432.600–432.975)"
+    },
+    {
+     "f": 433.0,
+     "t": 433.375,
+     "bw": "12 kHz",
+     "mode": "FM / Digital Voice repeaters",
+     "cat": "fm",
+     "use": "Repeater input Region 1 standard, 25 kHz spacing, 1.6 MHz shift"
+    },
+    {
+     "f": 433.4,
+     "t": 433.575,
+     "bw": "12 kHz",
+     "mode": "FM / Digital Voice",
+     "cat": "fm",
+     "use": "433.400 SSTV (FM/AFSK); 433.450 Digital Voice calling; 433.500 FM calling"
+    },
+    {
+     "f": 433.6,
+     "t": 434.0,
+     "bw": "none",
+     "mode": "all mode",
+     "cat": "all",
+     "use": "433.625–433.775 Digital communications channels; 434.000 Centre frequency of digital experiments"
+    },
+    {
+     "f": 434.0,
+     "t": 434.594,
+     "bw": "12 kHz",
+     "mode": "All mode – ATV",
+     "cat": "all",
+     "use": "434.450–434.575 Digital communications channels"
+    },
+    {
+     "f": 434.594,
+     "t": 434.981,
+     "bw": "12 kHz",
+     "mode": "All mode",
+     "cat": "fm",
+     "use": "434.600–434.9875 Repeater output (12.5 kHz spacing, 1.6 or 2 MHz shift)"
+    },
+    {
+     "f": 435.0,
+     "t": 436.0,
+     "bw": "none",
+     "mode": "Satellite service",
+     "cat": "sat",
+     "use": ""
+    },
+    {
+     "f": 436.0,
+     "t": 438.0,
+     "bw": "none",
+     "mode": "Satellite service & DATV/data",
+     "cat": "sat",
+     "use": "DATV/data centre of activity"
+    },
+    {
+     "f": 438.0,
+     "t": 440.0,
+     "bw": "none",
+     "mode": "All mode",
+     "cat": "all",
+     "use": "438.025–438.175 Digital communication channels; 438.200–438.525 Digital communication repeater channels; 438.550–438.625 Multi mode; 438.650–439.425 Repeater output channels (7.6 MHz shift); 439.800–439.975 Digital communication link channels"
+    }
+   ],
+   "notes": []
+  },
+  {
+   "id": "23cm",
+   "label": "23 cm",
+   "title": "1.240 – 1.300 MHz",
+   "src": "uhf",
+   "unit": "MHz",
+   "rows": [
+    {
+     "f": 1240.0,
+     "t": 1240.5,
+     "bw": 2700,
+     "mode": "all modes",
+     "cat": "other",
+     "use": "Reserved for the future"
+    },
+    {
+     "f": 1240.5,
+     "t": 1240.75,
+     "bw": 500,
+     "mode": "MGM & Telegraphy",
+     "cat": "beacon",
+     "use": "Beacons (reserved for the future)"
+    },
+    {
+     "f": 1240.75,
+     "t": 1241.0,
+     "bw": "20 kHz",
+     "mode": "FM / Digital Voice",
+     "cat": "other",
+     "use": "Reserved for the future"
+    },
+    {
+     "f": 1241.0,
+     "t": 1243.25,
+     "bw": "20 kHz",
+     "mode": "all modes",
+     "cat": "all",
+     "use": "1242.025–1242.250 repeater output; 1242.275–1242.700 repeater output; 1242.725–1243.250 Digital communications"
+    },
+    {
+     "f": 1243.25,
+     "t": 1260.0,
+     "bw": "*",
+     "mode": "(D)ATV",
+     "cat": "other",
+     "use": "1258.150–1259.350 Repeater output"
+    },
+    {
+     "f": 1260.0,
+     "t": 1270.0,
+     "bw": "*",
+     "mode": "Satellite service",
+     "cat": "sat",
+     "use": ""
+    },
+    {
+     "f": 1270.0,
+     "t": 1272.0,
+     "bw": "20 kHz",
+     "mode": "all modes",
+     "cat": "all",
+     "use": "1270.025–1270.700 Repeater input; 1270.725–1271.250 Digital communication"
+    },
+    {
+     "f": 1272.0,
+     "t": 1290.994,
+     "bw": "*",
+     "mode": "(D)ATV",
+     "cat": "other",
+     "use": ""
+    },
+    {
+     "f": 1290.994,
+     "t": 1291.481,
+     "bw": "20 kHz",
+     "mode": "FM / Digital Voice",
+     "cat": "fm",
+     "use": "Repeater input, 25 kHz spacing"
+    },
+    {
+     "f": 1291.494,
+     "t": 1296.0,
+     "bw": "*",
+     "mode": "all modes",
+     "cat": "all",
+     "use": "1293.150–1294.350 repeater input R20–R68"
+    },
+    {
+     "f": 1296.0,
+     "t": 1296.15,
+     "bw": 500,
+     "mode": "MGM & Telegraphy",
+     "cat": "cw",
+     "use": "1296.000–1296.025 Moonbounce; 1296.138 PSK31 centre of activity"
+    },
+    {
+     "f": 1296.15,
+     "t": 1296.8,
+     "bw": 2700,
+     "mode": "MGM, Telegraphy & SSB",
+     "cat": "all",
+     "use": "1296.200 Narrow band centre of activity; 1296.400–1296.600 linear transponder input; 1296.500 fax; 1296.600 Narrowband data centre of activity (MGM, RTTY, …); 1296.600–1296.700 linear transponder output; 1296.741–1296.743 experimental MGM (500 Hz); 1296.750–1296.800 local beacons"
+    },
+    {
+     "f": 1296.8,
+     "t": 1296.994,
+     "bw": 500,
+     "mode": "MGM & Telegraphy",
+     "cat": "beacon",
+     "use": "Beacons exclusive"
+    },
+    {
+     "f": 1296.994,
+     "t": 1297.481,
+     "bw": "20 kHz",
+     "mode": "FM / Digital Voice",
+     "cat": "fm",
+     "use": "Repeater output, 25 kHz spacing"
+    },
+    {
+     "f": 1297.494,
+     "t": 1297.981,
+     "bw": "20 kHz",
+     "mode": "FM / Digital Voice",
+     "cat": "fm",
+     "use": "1297.500 SM20; 1297.500 centre of FM activity; 1297.725 digital voice calling frequency; 1297.900–1297.975 Simplex FM internet gateways; 1297.975 SM39"
+    },
+    {
+     "f": 1298.0,
+     "t": 1299.0,
+     "bw": "20 kHz",
+     "mode": "all modes",
+     "cat": "all",
+     "use": "General mixed analogue or digital use, 25 kHz spacing channels (1298.025 RS1 … 1298.975 RS39)"
+    },
+    {
+     "f": 1299.0,
+     "t": 1299.75,
+     "bw": "150 kHz",
+     "mode": "all modes",
+     "cat": "other",
+     "use": "5 × 150 kHz channels for high speed digital data (DD); centres 1299.075, 1299.225, 1299.375, 1299.525, 1299.675 MHz (±75 kHz)"
+    },
+    {
+     "f": 1299.75,
+     "t": 1300.0,
+     "bw": "20 kHz",
+     "mode": "all modes",
+     "cat": "fm",
+     "use": "8 × 25 kHz channels (available for FM/DV use); centres 1299.775–1299.975"
+    }
+   ],
+   "notes": [
+    "* Bandbreitengrenzen nach nationalen Vorschriften (Fußnote der Quelle)."
+   ]
+  },
+  {
+   "id": "13cm",
+   "label": "13 cm",
+   "title": "2.300 – 2.450 MHz",
+   "src": "uhf",
+   "unit": "MHz",
+   "rows": [
+    {
+     "f": 2300.0,
+     "t": 2320.0,
+     "bw": "20 kHz",
+     "mode": "all modes",
+     "cat": "all",
+     "use": "2304–2306 narrow band segment in countries where the 2320–2322 segment is not available; 2308–2310 narrow band segment in HB"
+    },
+    {
+     "f": 2320.0,
+     "t": 2320.8,
+     "bw": "none",
+     "mode": "all modes",
+     "cat": "all",
+     "use": "2320.000–2320.025 EME; 2320.200 SSB centre of activity; 2320.750–2320.800 local beacons (10 W ERP max)"
+    },
+    {
+     "f": 2320.8,
+     "t": 2321.0,
+     "bw": "",
+     "mode": "MGM & Telegraphy",
+     "cat": "beacon",
+     "use": "Beacons exclusive"
+    },
+    {
+     "f": 2321.0,
+     "t": 2322.0,
+     "bw": "20 kHz",
+     "mode": "FM / Digital Voice",
+     "cat": "fm",
+     "use": "Voice simplex and repeaters"
+    },
+    {
+     "f": 2322.0,
+     "t": 2400.0,
+     "bw": "none",
+     "mode": "all modes",
+     "cat": "all",
+     "use": "2322–2355 ATV; 2355–2365 Digital communications; 2365–2370 Repeaters; 2370–2392 ATV; 2392–2400 Digital communications"
+    },
+    {
+     "f": 2400.0,
+     "t": 2450.0,
+     "bw": "",
+     "mode": "amateur satellite service",
+     "cat": "sat",
+     "use": "2400–2402 narrow band segment in countries where the 2320–2322 segment is not available; 2427–2443 ATV if no satellite uses this segment"
+    }
+   ],
+   "notes": []
+  }
+ ]
+}

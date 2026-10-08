@@ -15,6 +15,7 @@ import { bandwidthOf, notesOf, nf, powerText, rangeOf } from '../utils/notes'
 import { downloadCsv } from '../utils/exportCsv'
 import { DisclaimerBanner, DisclaimerFull } from './DisclaimerBanner'
 import { InfoPanels } from './InfoPanels'
+import BandplanView from './BandplanView'
 
 const CLASSES = ['A', 'E', 'N']
 
@@ -123,6 +124,7 @@ export default function FrequencyOverview() {
   const [status, setStatus] = useState('all')
   const [range, setRange] = useState('all')
   const [sort, setSort] = useState({ key: 'nr', dir: 1 })
+  const [view, setView] = useState(() => (window.location.hash === '#bandplan' ? 'bandplan' : 'anlage'))
   const searchRef = useRef(null)
 
   const counts = useMemo(
@@ -185,6 +187,15 @@ export default function FrequencyOverview() {
     )
   }
 
+  const switchView = (k) => {
+    setView(k)
+    try {
+      window.history.replaceState(null, '', k === 'bandplan' ? '#bandplan' : window.location.pathname + window.location.search)
+    } catch {
+      /* ignore */
+    }
+  }
+
   const reset = () => {
     setSearch('')
     setCls('all')
@@ -210,7 +221,7 @@ export default function FrequencyOverview() {
       <header>
         <h1 className="text-4xl font-bold mb-2 text-center">Amateur Radio Frequency Germany</h1>
         <p className="text-gray-400 text-center">
-          Frequenzbereiche nach Anlage 1 AFuV für die Klassen A, E und N · v{META.appVersion}
+          Frequenzbereiche nach Anlage 1 AFuV für die Klassen A, E und N, mit IARU-Bandplan · v{META.appVersion}
         </p>
         <p className="text-gray-500 text-center text-sm mt-1">
           Fassung: {META.lawVersion} · geprüft am {META.checkedOn}
@@ -221,6 +232,32 @@ export default function FrequencyOverview() {
       </header>
 
       <DisclaimerBanner />
+
+      <nav className="flex gap-2 print:hidden" aria-label="Ansicht">
+        {[
+          ['anlage', 'Anlage 1 AFuV (gesetzlich)'],
+          ['bandplan', 'Bandplan IARU Region 1 (Empfehlung)'],
+        ].map(([k, label]) => (
+          <button
+            key={k}
+            type="button"
+            onClick={() => switchView(k)}
+            aria-pressed={view === k}
+            className={`px-4 py-2 rounded-lg text-sm font-medium border transition ${
+              view === k
+                ? 'bg-blue-600 border-blue-500 text-white'
+                : 'bg-gray-800 border-gray-700 hover:bg-gray-700 text-gray-200'
+            }`}
+          >
+            {label}
+          </button>
+        ))}
+      </nav>
+
+      {view === 'bandplan' ? (
+        <BandplanView />
+      ) : (
+        <>
 
       <section className="grid grid-cols-1 md:grid-cols-3 gap-4" aria-label="Klassen im Überblick">
         {CLASSES.map((c) => (
@@ -392,6 +429,8 @@ export default function FrequencyOverview() {
           </div>
         )}
       </div>
+        </>
+      )}
 
       <InfoPanels />
       <DisclaimerFull />

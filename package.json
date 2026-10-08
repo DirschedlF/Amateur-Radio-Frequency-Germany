@@ -1,7 +1,7 @@
 {
   "name": "amateur-radio-frequency-germany",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.1.0",
   "type": "module",
   "description": "Sortable overview of all German amateur radio frequency ranges (Anlage 1 AFuV) for license classes A, E and N",
   "scripts": {
