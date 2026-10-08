@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #111827;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #111827;
+}
+
+#root {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Screen-only: hide print-only blocks */
+@media screen {
+  .print-show {
+    display: none !important;
+  }
+}
+
+/* Print: A4 landscape, light colours, no controls */
+@media print {
+  @page {
+    size: A4 landscape;
+    margin: 0.5cm 0.5cm 1cm 0.5cm;
+  }
+
+  body,
+  :root {
+    background-color: white !important;
+    color: black !important;
+  }
+
+  .print\:hidden {
+    display: none !important;
+  }
+
+  .print-show {
+    display: block !important;
+  }
+
+  .bg-gray-800,
+  .bg-gray-900,
+  .bg-gray-700 {
+    background-color: white !important;
+    border: 1px solid #d1d5db !important;
+  }
+
+  .text-white,
+  .text-gray-100,
+  .text-gray-200,
+  .text-gray-300,
+  .text-gray-400 {
+    color: black !important;
+  }
+
+  table tbody tr {
+    page-break-inside: avoid;
+  }
+
+  .scroll-box {
+    max-height: none !important;
+    overflow: visible !important;
+  }
+
+  thead th {
+    position: static !important;
+    background-color: #1f3864 !important;
+    color: white !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}

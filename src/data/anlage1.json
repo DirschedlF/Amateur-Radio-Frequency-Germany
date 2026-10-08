@@ -1,0 +1,1141 @@
+[
+ {
+  "nr": 1,
+  "freq": "135,7 – 137,8 kHz",
+  "fromMHz": 0.1357,
+  "toMHz": 0.1378,
+  "band": "2200 m",
+  "status": "S",
+  "power": {
+   "A": {
+    "w": 1.0,
+    "type": "ERP",
+    "eirp": "1,64 W EIRP"
+   },
+   "E": null,
+   "N": null
+  },
+  "refs": [
+   1,
+   2,
+   10
+  ],
+  "sat": null
+ },
+ {
+  "nr": 2,
+  "freq": "472 – 479 kHz",
+  "fromMHz": 0.472,
+  "toMHz": 0.479,
+  "band": "630 m",
+  "status": "S",
+  "power": {
+   "A": {
+    "w": 1.0,
+    "type": "ERP",
+    "eirp": "1,64 W EIRP"
+   },
+   "E": null,
+   "N": null
+  },
+  "refs": [
+   1
+  ],
+  "sat": null
+ },
+ {
+  "nr": 3,
+  "freq": "1.810 – 1.850 kHz",
+  "fromMHz": 1.81,
+  "toMHz": 1.85,
+  "band": "160 m",
+  "status": "P",
+  "power": {
+   "A": {
+    "w": 750.0,
+    "type": "PEP"
+   },
+   "E": {
+    "w": 100.0,
+    "type": "PEP"
+   },
+   "N": null
+  },
+  "refs": [
+   3
+  ],
+  "sat": null
+ },
+ {
+  "nr": 4,
+  "freq": "1.850 – 1.890 kHz",
+  "fromMHz": 1.85,
+  "toMHz": 1.89,
+  "band": "160 m",
+  "status": "S",
+  "power": {
+   "A": {
+    "w": 75.0,
+    "type": "PEP"
+   },
+   "E": {
+    "w": 75.0,
+    "type": "PEP"
+   },
+   "N": null
+  },
+  "refs": [
+   3,
+   10,
+   12,
+   15
+  ],
+  "sat": null
+ },
+ {
+  "nr": 5,
+  "freq": "1.890 – 2.000 kHz",
+  "fromMHz": 1.89,
+  "toMHz": 2.0,
+  "band": "160 m",
+  "status": "S",
+  "power": {
+   "A": {
+    "w": 10.0,
+    "type": "PEP"
+   },
+   "E": {
+    "w": 10.0,
+    "type": "PEP"
+   },
+   "N": null
+  },
+  "refs": [
+   3,
+   10,
+   15
+  ],
+  "sat": null
+ },
+ {
+  "nr": 6,
+  "freq": "3.500 – 3.800 kHz",
+  "fromMHz": 3.5,
+  "toMHz": 3.8,
+  "band": "80 m",
+  "status": "P",
+  "power": {
+   "A": {
+    "w": 750.0,
+    "type": "PEP"
+   },
+   "E": {
+    "w": 100.0,
+    "type": "PEP"
+   },
+   "N": null
+  },
+  "refs": [
+   3
+  ],
+  "sat": null
+ },
+ {
+  "nr": 7,
+  "freq": "5.351,5 – 5.366,5 kHz",
+  "fromMHz": 5.3515,
+  "toMHz": 5.3665,
+  "band": "60 m",
+  "status": "S",
+  "power": {
+   "A": {
+    "w": 9.14,
+    "type": "ERP",
+    "eirp": "15 W EIRP"
+   },
+   "E": null,
+   "N": null
+  },
+  "refs": [
+   3
+  ],
+  "sat": null
+ },
+ {
+  "nr": 8,
+  "freq": "7.000 – 7.200 kHz",
+  "fromMHz": 7.0,
+  "toMHz": 7.2,
+  "band": "40 m",
+  "status": "P",
+  "power": {
+   "A": {
+    "w": 750.0,
+    "type": "PEP"
+   },
+   "E": null,
+   "N": null
+  },
+  "refs": [
+   3,
+   13
+  ],
+  "sat": {
+   "status": "P",
+   "text": "7.000–7.100 kHz"
+  }
+ },
+ {
+  "nr": 9,
+  "freq": "10.100 – 10.150 kHz",
+  "fromMHz": 10.1,
+  "toMHz": 10.15,
+  "band": "30 m",
+  "status": "S",
+  "power": {
+   "A": {
+    "w": 150.0,
+    "type": "PEP"
+   },
+   "E": null,
+   "N": null
+  },
+  "refs": [
+   1,
+   10,
+   12
+  ],
+  "sat": null
+ },
+ {
+  "nr": 10,
+  "freq": "14.000 – 14.350 kHz",
+  "fromMHz": 14.0,
+  "toMHz": 14.35,
+  "band": "20 m",
+  "status": "P",
+  "power": {
+   "A": {
+    "w": 750.0,
+    "type": "PEP"
+   },
+   "E": null,
+   "N": null
+  },
+  "refs": [
+   3,
+   13
+  ],
+  "sat": {
+   "status": "P",
+   "text": "14.000–14.250 kHz"
+  }
+ },
+ {
+  "nr": 11,
+  "freq": "18.068 – 18.168 kHz",
+  "fromMHz": 18.068,
+  "toMHz": 18.168,
+  "band": "17 m",
+  "status": "P",
+  "power": {
+   "A": {
+    "w": 750.0,
+    "type": "PEP"
+   },
+   "E": null,
+   "N": null
+  },
+  "refs": [
+   3,
+   13
+  ],
+  "sat": {
+   "status": "P",
+   "text": "gesamter Bereich"
+  }
+ },
+ {
+  "nr": 12,
+  "freq": "21.000 – 21.450 kHz",
+  "fromMHz": 21.0,
+  "toMHz": 21.45,
+  "band": "15 m",
+  "status": "P",
+  "power": {
+   "A": {
+    "w": 750.0,
+    "type": "PEP"
+   },
+   "E": {
+    "w": 100.0,
+    "type": "PEP"
+   },
+   "N": null
+  },
+  "refs": [
+   3,
+   13
+  ],
+  "sat": {
+   "status": "P",
+   "text": "gesamter Bereich"
+  }
+ },
+ {
+  "nr": 13,
+  "freq": "24.890 – 24.990 kHz",
+  "fromMHz": 24.89,
+  "toMHz": 24.99,
+  "band": "12 m",
+  "status": "P",
+  "power": {
+   "A": {
+    "w": 750.0,
+    "type": "PEP"
+   },
+   "E": null,
+   "N": null
+  },
+  "refs": [
+   3,
+   13
+  ],
+  "sat": {
+   "status": "P",
+   "text": "gesamter Bereich"
+  }
+ },
+ {
+  "nr": 14,
+  "freq": "28 – 29,7 MHz",
+  "fromMHz": 28.0,
+  "toMHz": 29.7,
+  "band": "10 m",
+  "status": "P",
+  "power": {
+   "A": {
+    "w": 750.0,
+    "type": "PEP"
+   },
+   "E": {
+    "w": 100.0,
+    "type": "PEP"
+   },
+   "N": {
+    "w": 10.0,
+    "type": "ERP",
+    "eirp": "16,4 W EIRP"
+   }
+  },
+  "refs": [
+   4,
+   13
+  ],
+  "sat": {
+   "status": "P",
+   "text": "gesamter Bereich"
+  }
+ },
+ {
+  "nr": 15,
+  "freq": "50 – 50,4 MHz",
+  "fromMHz": 50.0,
+  "toMHz": 50.4,
+  "band": "6 m",
+  "status": "S",
+  "power": {
+   "A": {
+    "w": 750.0,
+    "type": "PEP"
+   },
+   "E": null,
+   "N": null
+  },
+  "refs": [
+   5,
+   16
+  ],
+  "sat": null
+ },
+ {
+  "nr": 16,
+  "freq": "50,4 – 52 MHz",
+  "fromMHz": 50.4,
+  "toMHz": 52.0,
+  "band": "6 m",
+  "status": "S",
+  "power": {
+   "A": {
+    "w": 25.0,
+    "type": "PEP"
+   },
+   "E": null,
+   "N": null
+  },
+  "refs": [
+   5,
+   16
+  ],
+  "sat": null
+ },
+ {
+  "nr": 17,
+  "freq": "144 – 146 MHz",
+  "fromMHz": 144.0,
+  "toMHz": 146.0,
+  "band": "2 m",
+  "status": "P",
+  "power": {
+   "A": {
+    "w": 750.0,
+    "type": "PEP"
+   },
+   "E": {
+    "w": 75.0,
+    "type": "PEP"
+   },
+   "N": {
+    "w": 6.1,
+    "type": "ERP",
+    "eirp": "10 W EIRP"
+   }
+  },
+  "refs": [
+   6,
+   13
+  ],
+  "sat": {
+   "status": "P",
+   "text": "gesamter Bereich"
+  }
+ },
+ {
+  "nr": 18,
+  "freq": "430 – 440 MHz",
+  "fromMHz": 430.0,
+  "toMHz": 440.0,
+  "band": "70 cm",
+  "status": "P",
+  "power": {
+   "A": {
+    "w": 750.0,
+    "type": "PEP"
+   },
+   "E": {
+    "w": 75.0,
+    "type": "PEP"
+   },
+   "N": {
+    "w": 6.1,
+    "type": "ERP",
+    "eirp": "10 W EIRP"
+   }
+  },
+  "refs": [
+   7,
+   13
+  ],
+  "sat": {
+   "status": "S",
+   "text": "435–438 MHz, andere sekundäre Dienste haben Vorrang"
+  }
+ },
+ {
+  "nr": 19,
+  "freq": "1.240 – 1.250 MHz",
+  "fromMHz": 1240.0,
+  "toMHz": 1250.0,
+  "band": "23 cm",
+  "status": "S",
+  "power": {
+   "A": {
+    "w": 750.0,
+    "type": "PEP"
+   },
+   "E": {
+    "w": 75.0,
+    "type": "PEP"
+   },
+   "N": null
+  },
+  "refs": [
+   8,
+   11,
+   17
+  ],
+  "sat": null
+ },
+ {
+  "nr": 20,
+  "freq": "1.250 – 1.260 MHz",
+  "fromMHz": 1250.0,
+  "toMHz": 1260.0,
+  "band": "23 cm",
+  "status": "S",
+  "power": {
+   "A": {
+    "w": 750.0,
+    "type": "PEP"
+   },
+   "E": {
+    "w": 75.0,
+    "type": "PEP"
+   },
+   "N": null
+  },
+  "refs": [
+   8,
+   11,
+   17
+  ],
+  "sat": null
+ },
+ {
+  "nr": 21,
+  "freq": "1.260 – 1.300 MHz",
+  "fromMHz": 1260.0,
+  "toMHz": 1300.0,
+  "band": "23 cm",
+  "status": "S",
+  "power": {
+   "A": {
+    "w": 750.0,
+    "type": "PEP"
+   },
+   "E": {
+    "w": 75.0,
+    "type": "PEP"
+   },
+   "N": null
+  },
+  "refs": [
+   8,
+   11,
+   13,
+   17
+  ],
+  "sat": {
+   "status": "S",
+   "text": "1.260–1.270 MHz nur Erde→Weltraum, andere sekundäre Dienste haben Vorrang"
+  }
+ },
+ {
+  "nr": 22,
+  "freq": "2.320 – 2.400 MHz",
+  "fromMHz": 2320.0,
+  "toMHz": 2400.0,
+  "band": "13 cm",
+  "status": "S",
+  "power": {
+   "A": {
+    "w": 75.0,
+    "type": "PEP"
+   },
+   "E": {
+    "w": 5.0,
+    "type": "PEP"
+   },
+   "N": null
+  },
+  "refs": [
+   9,
+   17
+  ],
+  "sat": null
+ },
+ {
+  "nr": 23,
+  "freq": "2.400 – 2.450 MHz",
+  "fromMHz": 2400.0,
+  "toMHz": 2450.0,
+  "band": "13 cm",
+  "status": "S",
+  "power": {
+   "A": {
+    "w": 75.0,
+    "type": "PEP"
+   },
+   "E": {
+    "w": 5.0,
+    "type": "PEP"
+   },
+   "N": null
+  },
+  "refs": [
+   9,
+   13,
+   17
+  ],
+  "sat": {
+   "status": "S",
+   "text": "andere sekundäre Dienste haben Vorrang"
+  }
+ },
+ {
+  "nr": 24,
+  "freq": "3.400 – 3.475 MHz",
+  "fromMHz": 3400.0,
+  "toMHz": 3475.0,
+  "band": "9 cm",
+  "status": "S",
+  "power": {
+   "A": {
+    "w": 75.0,
+    "type": "PEP"
+   },
+   "E": {
+    "w": 5.0,
+    "type": "PEP"
+   },
+   "N": null
+  },
+  "refs": [
+   9,
+   17
+  ],
+  "sat": null
+ },
+ {
+  "nr": 25,
+  "freq": "5.650 – 5.670 MHz",
+  "fromMHz": 5650.0,
+  "toMHz": 5670.0,
+  "band": "6 cm",
+  "status": "S",
+  "power": {
+   "A": {
+    "w": 75.0,
+    "type": "PEP"
+   },
+   "E": {
+    "w": 5.0,
+    "type": "PEP"
+   },
+   "N": null
+  },
+  "refs": [
+   9,
+   13,
+   17
+  ],
+  "sat": {
+   "status": "S",
+   "text": "nur Erde→Weltraum, andere sekundäre Dienste haben Vorrang"
+  }
+ },
+ {
+  "nr": 26,
+  "freq": "5.670 – 5.725 MHz",
+  "fromMHz": 5670.0,
+  "toMHz": 5725.0,
+  "band": "6 cm",
+  "status": "S",
+  "power": {
+   "A": {
+    "w": 75.0,
+    "type": "PEP"
+   },
+   "E": {
+    "w": 5.0,
+    "type": "PEP"
+   },
+   "N": null
+  },
+  "refs": [
+   9,
+   17
+  ],
+  "sat": null
+ },
+ {
+  "nr": 27,
+  "freq": "5.725 – 5.755 MHz",
+  "fromMHz": 5725.0,
+  "toMHz": 5755.0,
+  "band": "6 cm",
+  "status": "S",
+  "power": {
+   "A": {
+    "w": 75.0,
+    "type": "PEP"
+   },
+   "E": {
+    "w": 5.0,
+    "type": "PEP"
+   },
+   "N": null
+  },
+  "refs": [
+   9,
+   17
+  ],
+  "sat": null
+ },
+ {
+  "nr": 28,
+  "freq": "5.755 – 5.830 MHz",
+  "fromMHz": 5755.0,
+  "toMHz": 5830.0,
+  "band": "6 cm",
+  "status": "S",
+  "power": {
+   "A": {
+    "w": 75.0,
+    "type": "PEP"
+   },
+   "E": {
+    "w": 5.0,
+    "type": "PEP"
+   },
+   "N": null
+  },
+  "refs": [
+   9,
+   17
+  ],
+  "sat": null
+ },
+ {
+  "nr": 29,
+  "freq": "5.830 – 5.850 MHz",
+  "fromMHz": 5830.0,
+  "toMHz": 5850.0,
+  "band": "6 cm",
+  "status": "S",
+  "power": {
+   "A": {
+    "w": 75.0,
+    "type": "PEP"
+   },
+   "E": {
+    "w": 5.0,
+    "type": "PEP"
+   },
+   "N": null
+  },
+  "refs": [
+   9,
+   17
+  ],
+  "sat": null
+ },
+ {
+  "nr": 30,
+  "freq": "10 – 10,4 GHz",
+  "fromMHz": 10000.0,
+  "toMHz": 10400.0,
+  "band": "3 cm",
+  "status": "S",
+  "power": {
+   "A": {
+    "w": 75.0,
+    "type": "PEP"
+   },
+   "E": {
+    "w": 5.0,
+    "type": "PEP"
+   },
+   "N": null
+  },
+  "refs": [
+   9,
+   17
+  ],
+  "sat": null
+ },
+ {
+  "nr": 31,
+  "freq": "10,4 – 10,45 GHz",
+  "fromMHz": 10400.0,
+  "toMHz": 10450.0,
+  "band": "3 cm",
+  "status": "S",
+  "power": {
+   "A": {
+    "w": 75.0,
+    "type": "PEP"
+   },
+   "E": {
+    "w": 5.0,
+    "type": "PEP"
+   },
+   "N": null
+  },
+  "refs": [
+   9,
+   17
+  ],
+  "sat": null
+ },
+ {
+  "nr": 32,
+  "freq": "10,45 – 10,5 GHz",
+  "fromMHz": 10450.0,
+  "toMHz": 10500.0,
+  "band": "3 cm",
+  "status": "S",
+  "power": {
+   "A": {
+    "w": 75.0,
+    "type": "PEP"
+   },
+   "E": {
+    "w": 5.0,
+    "type": "PEP"
+   },
+   "N": null
+  },
+  "refs": [
+   9,
+   13,
+   17
+  ],
+  "sat": {
+   "status": "S",
+   "text": "gesamter Bereich"
+  }
+ },
+ {
+  "nr": 33,
+  "freq": "24 – 24,05 GHz",
+  "fromMHz": 24000.0,
+  "toMHz": 24050.0,
+  "band": "1,2 cm",
+  "status": "P",
+  "power": {
+   "A": {
+    "w": 75.0,
+    "type": "PEP"
+   },
+   "E": {
+    "w": 5.0,
+    "type": "PEP"
+   },
+   "N": null
+  },
+  "refs": [
+   13,
+   17
+  ],
+  "sat": {
+   "status": "P",
+   "text": "gesamter Bereich"
+  }
+ },
+ {
+  "nr": 34,
+  "freq": "24,05 – 24,25 GHz",
+  "fromMHz": 24050.0,
+  "toMHz": 24250.0,
+  "band": "1,2 cm",
+  "status": "S",
+  "power": {
+   "A": {
+    "w": 75.0,
+    "type": "PEP"
+   },
+   "E": {
+    "w": 5.0,
+    "type": "PEP"
+   },
+   "N": null
+  },
+  "refs": [
+   9,
+   17
+  ],
+  "sat": null
+ },
+ {
+  "nr": 35,
+  "freq": "47 – 47,2 GHz",
+  "fromMHz": 47000.0,
+  "toMHz": 47200.0,
+  "band": "6 mm",
+  "status": "P",
+  "power": {
+   "A": {
+    "w": 75.0,
+    "type": "PEP"
+   },
+   "E": {
+    "w": 5.0,
+    "type": "PEP"
+   },
+   "N": null
+  },
+  "refs": [
+   13,
+   17
+  ],
+  "sat": {
+   "status": "P",
+   "text": "gesamter Bereich"
+  }
+ },
+ {
+  "nr": 36,
+  "freq": "76 – 77,5 GHz",
+  "fromMHz": 76000.0,
+  "toMHz": 77500.0,
+  "band": "4 mm",
+  "status": "S",
+  "power": {
+   "A": {
+    "w": 75.0,
+    "type": "PEP"
+   },
+   "E": {
+    "w": 5.0,
+    "type": "PEP"
+   },
+   "N": null
+  },
+  "refs": [
+   9,
+   13,
+   17
+  ],
+  "sat": {
+   "status": "S",
+   "text": "gesamter Bereich"
+  }
+ },
+ {
+  "nr": 37,
+  "freq": "77,5 – 78 GHz",
+  "fromMHz": 77500.0,
+  "toMHz": 78000.0,
+  "band": "4 mm",
+  "status": "S",
+  "power": {
+   "A": {
+    "w": 75.0,
+    "type": "PEP"
+   },
+   "E": {
+    "w": 5.0,
+    "type": "PEP"
+   },
+   "N": null
+  },
+  "refs": [
+   9,
+   13,
+   17
+  ],
+  "sat": {
+   "status": "S",
+   "text": "gesamter Bereich"
+  }
+ },
+ {
+  "nr": 38,
+  "freq": "78 – 79 GHz",
+  "fromMHz": 78000.0,
+  "toMHz": 79000.0,
+  "band": "4 mm",
+  "status": "S",
+  "power": {
+   "A": {
+    "w": 75.0,
+    "type": "PEP"
+   },
+   "E": {
+    "w": 5.0,
+    "type": "PEP"
+   },
+   "N": null
+  },
+  "refs": [
+   9,
+   13,
+   17
+  ],
+  "sat": {
+   "status": "S",
+   "text": "gesamter Bereich"
+  }
+ },
+ {
+  "nr": 39,
+  "freq": "79 – 81 GHz",
+  "fromMHz": 79000.0,
+  "toMHz": 81000.0,
+  "band": "4 mm",
+  "status": "S",
+  "power": {
+   "A": {
+    "w": 75.0,
+    "type": "PEP"
+   },
+   "E": {
+    "w": 5.0,
+    "type": "PEP"
+   },
+   "N": null
+  },
+  "refs": [
+   9,
+   13,
+   17
+  ],
+  "sat": {
+   "status": "S",
+   "text": "gesamter Bereich"
+  }
+ },
+ {
+  "nr": 40,
+  "freq": "122,25 – 123 GHz",
+  "fromMHz": 122250.0,
+  "toMHz": 123000.0,
+  "band": "2,5 mm",
+  "status": "S",
+  "power": {
+   "A": {
+    "w": 75.0,
+    "type": "PEP"
+   },
+   "E": {
+    "w": 5.0,
+    "type": "PEP"
+   },
+   "N": null
+  },
+  "refs": [
+   9,
+   17
+  ],
+  "sat": null
+ },
+ {
+  "nr": 41,
+  "freq": "134 – 136 GHz",
+  "fromMHz": 134000.0,
+  "toMHz": 136000.0,
+  "band": "2 mm",
+  "status": "P",
+  "power": {
+   "A": {
+    "w": 75.0,
+    "type": "PEP"
+   },
+   "E": {
+    "w": 5.0,
+    "type": "PEP"
+   },
+   "N": null
+  },
+  "refs": [
+   9,
+   13,
+   17
+  ],
+  "sat": {
+   "status": "P",
+   "text": "gesamter Bereich"
+  }
+ },
+ {
+  "nr": 42,
+  "freq": "136 – 141 GHz",
+  "fromMHz": 136000.0,
+  "toMHz": 141000.0,
+  "band": "2 mm",
+  "status": "S",
+  "power": {
+   "A": {
+    "w": 75.0,
+    "type": "PEP"
+   },
+   "E": {
+    "w": 5.0,
+    "type": "PEP"
+   },
+   "N": null
+  },
+  "refs": [
+   9,
+   13,
+   17
+  ],
+  "sat": {
+   "status": "S",
+   "text": "gesamter Bereich"
+  }
+ },
+ {
+  "nr": 43,
+  "freq": "241 – 248 GHz",
+  "fromMHz": 241000.0,
+  "toMHz": 248000.0,
+  "band": "1,2 mm",
+  "status": "S",
+  "power": {
+   "A": {
+    "w": 75.0,
+    "type": "PEP"
+   },
+   "E": {
+    "w": 5.0,
+    "type": "PEP"
+   },
+   "N": null
+  },
+  "refs": [
+   13,
+   17
+  ],
+  "sat": {
+   "status": "S",
+   "text": "gesamter Bereich"
+  }
+ },
+ {
+  "nr": 44,
+  "freq": "248 – 250 GHz",
+  "fromMHz": 248000.0,
+  "toMHz": 250000.0,
+  "band": "1,2 mm",
+  "status": "P",
+  "power": {
+   "A": {
+    "w": 75.0,
+    "type": "PEP"
+   },
+   "E": {
+    "w": 5.0,
+    "type": "PEP"
+   },
+   "N": null
+  },
+  "refs": [
+   13,
+   17
+  ],
+  "sat": {
+   "status": "P",
+   "text": "gesamter Bereich"
+  }
+ },
+ {
+  "nr": 45,
+  "freq": "> 275 GHz",
+  "fromMHz": 275000.0,
+  "toMHz": null,
+  "band": "THz-Bereich",
+  "status": "–",
+  "power": {
+   "A": null,
+   "E": null,
+   "N": null
+  },
+  "refs": [
+   14,
+   17
+  ],
+  "sat": null
+ }
+]

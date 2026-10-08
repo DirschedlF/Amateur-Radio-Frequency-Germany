@@ -1,0 +1,70 @@
+[
+ {
+  "nr": 1,
+  "text": "Belegte Bandbreite höchstens 800 Hz."
+ },
+ {
+  "nr": 2,
+  "text": "Betriebsort der BNetzA anzeigen, Antenne ausreichend entkoppeln, bei Störung von Primärdiensten (auch in Nachbarbereichen) Betrieb einstellen."
+ },
+ {
+  "nr": 3,
+  "text": "Belegte Bandbreite höchstens 2,7 kHz."
+ },
+ {
+  "nr": 4,
+  "text": "Belegte Bandbreite höchstens 7 kHz unterhalb 29 MHz und 40 kHz oberhalb 29 MHz."
+ },
+ {
+  "nr": 5,
+  "text": "Nur horizontale Polarisation und ortsfeste Stellen. Keine Störung des Rundfunkempfangs, kein Schutz vor Rundfunk. 50–52 MHz: keine Störung von Windprofilmessradaren, kein Schutz vor diesen. 50-MHz-Bake auf telefonische Anforderung abschaltbar."
+ },
+ {
+  "nr": 6,
+  "text": "Belegte Bandbreite höchstens 40 kHz."
+ },
+ {
+  "nr": 7,
+  "text": "Belegte Bandbreite höchstens 2 MHz, bei AM-Fernsehen 7 MHz."
+ },
+ {
+  "nr": 8,
+  "text": "Belegte Bandbreite höchstens 2 MHz, bei AM- oder digitalem Fernsehen 7 MHz, bei FM-Fernsehen 18 MHz."
+ },
+ {
+  "nr": 9,
+  "text": "Belegte Bandbreite höchstens 10 MHz, bei Fernsehaussendungen 20 MHz."
+ },
+ {
+  "nr": 10,
+  "text": "Keine fernbedienten Stellen (außer Remote-Betrieb), kein Contestbetrieb."
+ },
+ {
+  "nr": 11,
+  "text": "1.247–1.263 MHz: höchstens 3,05 W ERP (≙ 5 W EIRP), keine fernbedienten oder automatisch arbeitenden Stellen."
+ },
+ {
+  "nr": 12,
+  "text": "Automatisch arbeitende Stellen: höchstens 50 W ERP."
+ },
+ {
+  "nr": 13,
+  "text": "Amateurfunkdienst über Satelliten. Primär u. a. in 7.000–7.100, 14.000–14.250, 18.068–18.168, 21.000–21.450, 24.890–24.990 kHz, 28–29,7 und 144–146 MHz, 24–24,05, 47–47,2, 134–136 und 248–250 GHz. Sekundär u. a. in 435–438, 1.260–1.270, 2.400–2.450, 5.650–5.670, 5.830–5.850 MHz, 10,45–10,5, 76–81, 136–141 und 241–248 GHz. In 435–438, 1.260–1.270, 2.400–2.450 und 5.650–5.670 MHz haben andere sekundäre Dienste Vorrang, Satellitenstellen müssen steuerbar sein. 1.260–1.270 und 5.650–5.670 MHz nur Erde→Weltraum, 5.830–5.850 MHz nur Weltraum→Erde."
+ },
+ {
+  "nr": 14,
+  "text": "Nutzung nach den Bedingungen der Bundesnetzagentur im Amtsblatt, kein Störschutz. Genannt sind u. a. 444–453, 510–546, 711–730, 909–926, 945–951 GHz und oberhalb 956 GHz."
+ },
+ {
+  "nr": 15,
+  "text": "An Wochenenden bis 750 W PEP (A) bzw. 100 W PEP (E), Contestbetrieb am Wochenende erlaubt."
+ },
+ {
+  "nr": 16,
+  "text": "Belegte Bandbreite höchstens 12 kHz."
+ },
+ {
+  "nr": 17,
+  "text": "Linkstrecken fernbedienter oder automatischer Stellen in begründeten Fällen bis 1.000 W ERP."
+ }
+]
