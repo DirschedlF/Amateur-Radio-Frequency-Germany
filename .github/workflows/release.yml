@@ -4,6 +4,12 @@ on:
   push:
     tags:
       - 'v*'
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Release tag, e.g. v1.0.0 (created from main if missing)'
+        required: true
+        default: 'v1.0.0'
 
 permissions:
   contents: write
@@ -11,6 +17,8 @@ permissions:
 jobs:
   release:
     runs-on: ubuntu-latest
+    env:
+      VERSION: ${{ github.event.inputs.version || github.ref_name }}
     steps:
       - uses: actions/checkout@v4
 
@@ -24,14 +32,15 @@ jobs:
       - name: Build standalone HTML
         run: |
           npm run build:standalone
-          cp dist-standalone/index.html "Amateur-Radio-Frequency-Germany-${GITHUB_REF_NAME}-standalone.html"
+          cp dist-standalone/index.html "Amateur-Radio-Frequency-Germany-${VERSION}-standalone.html"
 
       - name: Create GitHub Release
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release create "$GITHUB_REF_NAME" \
-            "Amateur-Radio-Frequency-Germany-${GITHUB_REF_NAME}-standalone.html" \
-            --title "Amateur Radio Frequency Germany ${GITHUB_REF_NAME}" \
+          gh release create "$VERSION" \
+            "Amateur-Radio-Frequency-Germany-${VERSION}-standalone.html" \
+            --target "${{ github.sha }}" \
+            --title "Amateur Radio Frequency Germany ${VERSION}" \
             --generate-notes \
             --notes "Offline-Version als einzelne HTML-Datei: herunterladen und im Browser öffnen. **Angaben ohne Gewähr**, verbindlich ist nur die amtliche AFuV."
