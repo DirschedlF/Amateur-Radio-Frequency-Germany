@@ -22,7 +22,7 @@ Sortierbare Übersicht aller deutschen Amateurfunk-Frequenzbereiche (Langwelle b
 - Sort by any column, full-text search (`/` shortcut), filters for class, status and frequency range
 - CSV export (semicolon, UTF-8 BOM, Excel-ready) and print layout (A4 landscape)
 - Info panels: reading guide, satellite explanation, Teil B, further rules (BEMFV, AFuV §§ 11/16/17), sources
-- **New in 1.1:** IARU Region 1 band plan view (HF 2200 m–10 m, VHF 6 m/4 m/2 m, UHF 70 cm/23 cm/13 cm): segment bar chart, max. bandwidth, mode and usage per segment, and for each segment whether Anlage 1 grants it to class A, E or N
+- **New in 1.1:** IARU Region 1 band plan view (HF 2200 m–10 m, VHF 6 m/4 m/2 m, UHF 70 cm/23 cm/13 cm, SHF 9 cm–1,2 cm and microwave 6 mm–1,2 mm since 1.1.1): segment bar chart, max. bandwidth, mode and usage per segment, and for each segment whether Anlage 1 grants it to class A, E or N
 - Band plan is a recommendation, not law: clearly labelled in the app, with the source version shown
 - Prominent disclaimer banner ("Angaben ohne Gewähr")
 - Standalone single-file HTML build that works offline
@@ -86,13 +86,14 @@ See [docs/DATA_SOURCES.md](docs/DATA_SOURCES.md). In short: compare the official
 - [ ] GitHub Action to monitor changes of Anlage 1
 - [ ] English UI toggle
 - [x] Band plan layer (IARU Region 1 HF/VHF/UHF, v1.1)
-- [ ] Update band plans to the latest IARU versions, add DARC 2 m plan and SHF/microwave
+- [x] SHF/microwave band plans and notes from VHF Handbook V10.03 (v1.1.1); HF/VHF/UHF plans checked, still Dec 2020
+- [ ] Optional: DARC 2 m plan (Stand 08/2017) as separate view
 
 ## Disclaimer / Haftungsausschluss
 
 **DE:** Alle Angaben erfolgen ohne Gewähr auf Richtigkeit, Vollständigkeit und Aktualität. Dies ist ein privates, nicht kommerzielles Hobbyprojekt, keine Rechtsberatung und weder mit der Bundesnetzagentur noch mit dem DARC verbunden. Maßgeblich sind allein die amtlichen Veröffentlichungen (Bundesgesetzblatt, gesetze-im-internet.de, Verfügungen der Bundesnetzagentur). Für Schäden aus der Nutzung wird keine Haftung übernommen.
 
-Der **Bandplan** (IARU Region 1, Stand der Quellen: HF 16.10.2020, VHF und UHF Dezember 2020) ist eine Empfehlung und kein Gesetz. Neuere Fassungen können abweichen.
+Der **Bandplan** (IARU Region 1, Stand der Quellen: HF 16.10.2020, VHF/UHF/SHF/µWave Dezember 2020; ergänzende Hinweise aus dem VHF Handbook V10.03, Februar 2026) ist eine Empfehlung und kein Gesetz. Neuere Fassungen können abweichen.
 
 **EN:** All information is provided without warranty. This is an unofficial hobby project and not legal advice. Only the official text of the German Amateur Radio Ordinance (AFuV) and the notices of the Bundesnetzagentur are binding. Always verify against the current official version before operating.
 

@@ -15,6 +15,16 @@
    "title": "IARU Region 1 UHF Band Plan",
    "effective": "Dezember 2020 (VGC Novi Sad)",
    "editor": "ON4AVJ (PDF vom 18.03.2021)"
+  },
+  "shf": {
+   "title": "IARU Region 1 SHF Band Plan",
+   "effective": "Dezember 2020 (VGC Novi Sad)",
+   "editor": "ON4AVJ (02.12.2020)"
+  },
+  "uwave": {
+   "title": "IARU Region 1 µWave Band Plan",
+   "effective": "Dezember 2020 (VGC Novi Sad)",
+   "editor": "ON4AVJ (02.12.2020)"
   }
  },
  "hfNotes": [
@@ -1097,7 +1107,10 @@
     }
    ],
    "notes": [
-    "In dieser Tabelle der IARU ist 144,9625–144,975 MHz nicht belegt. Das DARC-Referat VHF/UHF/SHF führt außerdem einen eigenen 2-m-Bandplan (Stand 08/2017) mit abweichender Detailgliederung."
+    "In dieser Tabelle der IARU ist 144,9625–144,975 MHz nicht belegt. Das DARC-Referat VHF/UHF/SHF führt außerdem einen eigenen 2-m-Bandplan (Stand 08/2017) mit abweichender Detailgliederung.",
+    "Unterhalb von 144,0025 MHz soll nicht gesendet werden (Schutzabstand zur Bandkante; Fußnote r, VHF Handbook 10.03).",
+    "Für FM-Sprechfunk mit Sonderstationen wie bemannten Raumfahrzeugen: 145,200 MHz Simplex oder 145,200/145,800 MHz im Split (Fußnote p, VHF Handbook 10.03).",
+    "Nationale Nutzung in einigen Ländern: 144,630–144,660 MHz Linear-Transponder-Ausgänge, 144,660–144,690 MHz Linear-Transponder-Eingänge (VHF Handbook 10.03)."
    ]
   },
   {
@@ -1221,7 +1234,11 @@
      "use": "438.025–438.175 Digital communication channels; 438.200–438.525 Digital communication repeater channels; 438.550–438.625 Multi mode; 438.650–439.425 Repeater output channels (7.6 MHz shift); 439.800–439.975 Digital communication link channels"
     }
    ],
-   "notes": []
+   "notes": [
+    "434,000 MHz: LoRa-Experimente; Datenmodi mit höchstens 125 kHz Bandbreite (Fußnote p, VHF Handbook 10.03).",
+    "Seit 01.01.2021 ist analoges ATV/SATV im Band 430–440 MHz nicht mehr vorgesehen; DATV mit geringer Bandbreite bleibt im Bereich 436–438 MHz möglich, dort hat der Amateurfunk-Satellitendienst Vorrang (VHF Handbook 10.03).",
+    "Nationale Nutzung in einigen Ländern: 432,500–432,600 MHz Linear-Transponder-Eingänge, 432,600–432,800 MHz Linear-Transponder-Ausgänge (VHF Handbook 10.03)."
+   ]
   },
   {
    "id": "23cm",
@@ -1433,6 +1450,462 @@
      "mode": "amateur satellite service",
      "cat": "sat",
      "use": "2400–2402 narrow band segment in countries where the 2320–2322 segment is not available; 2427–2443 ATV if no satellite uses this segment"
+    }
+   ],
+   "notes": []
+  },
+  {
+   "id": "9cm",
+   "label": "9 cm",
+   "title": "3.400 – 3.475 MHz",
+   "src": "shf",
+   "unit": "MHz",
+   "rows": [
+    {
+     "f": 3400.0,
+     "t": 3400.8,
+     "bw": 500,
+     "mode": "MGM & Telegraphy",
+     "cat": "narrow",
+     "use": "3400.100 EME centre of activity; 3400.750–3400.800 local beacons"
+    },
+    {
+     "f": 3400.8,
+     "t": 3400.995,
+     "bw": 500,
+     "mode": "MGM & Telegraphy",
+     "cat": "beacon",
+     "use": "Beacons only"
+    },
+    {
+     "f": 3401.0,
+     "t": 3402.0,
+     "bw": 2700,
+     "mode": "all modes",
+     "cat": "all",
+     "use": ""
+    },
+    {
+     "f": 3402.0,
+     "t": 3410.0,
+     "bw": "none",
+     "mode": "all modes",
+     "cat": "sat",
+     "use": "Satellite downlinks"
+    },
+    {
+     "f": 3410.0,
+     "t": 3475.0,
+     "bw": "none",
+     "mode": "all modes",
+     "cat": "all",
+     "use": ""
+    }
+   ],
+   "notes": [
+    "Die Quelle nennt für das erste Segment „340,800“ als Obergrenze; gemeint ist 3400,800 MHz (passend zum Folgesegment)."
+   ]
+  },
+  {
+   "id": "6cm",
+   "label": "6 cm",
+   "title": "5.650 – 5.850 MHz",
+   "src": "shf",
+   "unit": "MHz",
+   "rows": [
+    {
+     "f": 5650.0,
+     "t": 5668.0,
+     "bw": 2700,
+     "mode": "all modes",
+     "cat": "sat",
+     "use": "Amateur satellite service (uplink); 5668.200 narrow band centre of activity (a)"
+    },
+    {
+     "f": 5668.0,
+     "t": 5670.0,
+     "bw": 2700,
+     "mode": "all modes",
+     "cat": "sat",
+     "use": "Amateur satellite service (uplink)"
+    },
+    {
+     "f": 5670.0,
+     "t": 5700.0,
+     "bw": "none",
+     "mode": "MGM",
+     "cat": "narrow",
+     "use": ""
+    },
+    {
+     "f": 5720.0,
+     "t": 5760.0,
+     "bw": "none",
+     "mode": "all modes",
+     "cat": "all",
+     "use": ""
+    },
+    {
+     "f": 5760.0,
+     "t": 5760.8,
+     "bw": 2700,
+     "mode": "all modes",
+     "cat": "all",
+     "use": "5760.200 narrow band centre of activity; 5760.750–5760.800 local beacons"
+    },
+    {
+     "f": 5760.8,
+     "t": 5760.99,
+     "bw": "none",
+     "mode": "MGM & Telegraphy",
+     "cat": "beacon",
+     "use": "Beacons only"
+    },
+    {
+     "f": 5761.0,
+     "t": 5762.0,
+     "bw": 2700,
+     "mode": "all modes",
+     "cat": "all",
+     "use": ""
+    },
+    {
+     "f": 5762.0,
+     "t": 5790.0,
+     "bw": "none",
+     "mode": "all modes",
+     "cat": "all",
+     "use": ""
+    },
+    {
+     "f": 5790.0,
+     "t": 5850.0,
+     "bw": "none",
+     "mode": "all modes",
+     "cat": "sat",
+     "use": "Amateur satellite service (downlink)"
+    }
+   ],
+   "notes": []
+  },
+  {
+   "id": "3cm",
+   "label": "3 cm",
+   "title": "10,000 – 10,500 GHz",
+   "src": "shf",
+   "unit": "MHz",
+   "rows": [
+    {
+     "f": 10000.0,
+     "t": 10150.0,
+     "bw": "none",
+     "mode": "MGM",
+     "cat": "narrow",
+     "use": ""
+    },
+    {
+     "f": 10150.0,
+     "t": 10250.0,
+     "bw": "none",
+     "mode": "all modes",
+     "cat": "all",
+     "use": ""
+    },
+    {
+     "f": 10250.0,
+     "t": 10350.0,
+     "bw": "none",
+     "mode": "MGM",
+     "cat": "narrow",
+     "use": ""
+    },
+    {
+     "f": 10350.0,
+     "t": 10368.0,
+     "bw": "none",
+     "mode": "all modes",
+     "cat": "all",
+     "use": ""
+    },
+    {
+     "f": 10368.0,
+     "t": 10368.8,
+     "bw": 2700,
+     "mode": "all modes",
+     "cat": "all",
+     "use": "10368.200 narrow band centre of activity; 10368.750–10368.800 local beacons"
+    },
+    {
+     "f": 10368.8,
+     "t": 10368.99,
+     "bw": "",
+     "mode": "",
+     "cat": "beacon",
+     "use": "Beacons only"
+    },
+    {
+     "f": 10369.0,
+     "t": 10370.0,
+     "bw": 2700,
+     "mode": "all modes",
+     "cat": "all",
+     "use": ""
+    },
+    {
+     "f": 10370.0,
+     "t": 10450.0,
+     "bw": "",
+     "mode": "all modes",
+     "cat": "all",
+     "use": ""
+    },
+    {
+     "f": 10450.0,
+     "t": 10500.0,
+     "bw": "",
+     "mode": "all modes",
+     "cat": "sat",
+     "use": "Amateur satellite service; 10450–10452 narrow band modes in countries where 10368–10370 is not available"
+    }
+   ],
+   "notes": []
+  },
+  {
+   "id": "1.2cm",
+   "label": "1,2 cm",
+   "title": "24,000 – 24,250 GHz",
+   "src": "shf",
+   "unit": "MHz",
+   "rows": [
+    {
+     "f": 24000.0,
+     "t": 24048.0,
+     "bw": "",
+     "mode": "all modes",
+     "cat": "all",
+     "use": "24025 wideband centre of activity; 24048.2 narrow band centre of activity"
+    },
+    {
+     "f": 24048.0,
+     "t": 24048.8,
+     "bw": 2700,
+     "mode": "all modes",
+     "cat": "sat",
+     "use": "Amateur satellite service, narrow band modes; 24048.750–24048.800 local beacons"
+    },
+    {
+     "f": 24048.8,
+     "t": 24048.995,
+     "bw": "",
+     "mode": "all modes",
+     "cat": "beacon",
+     "use": "Beacons only"
+    },
+    {
+     "f": 24049.0,
+     "t": 24050.0,
+     "bw": 2700,
+     "mode": "all modes",
+     "cat": "sat",
+     "use": "Amateur satellite service, narrow band modes"
+    },
+    {
+     "f": 24050.0,
+     "t": 24250.0,
+     "bw": "",
+     "mode": "all modes",
+     "cat": "all",
+     "use": ""
+    }
+   ],
+   "notes": [
+    "Die Quelle nennt die Zentren als „24.025“ und „24.0482“ (GHz); hier in MHz umgerechnet."
+   ]
+  },
+  {
+   "id": "6mm",
+   "label": "6 mm",
+   "title": "47,000 – 47,200 GHz",
+   "src": "uwave",
+   "unit": "MHz",
+   "rows": [
+    {
+     "f": 47000.0,
+     "t": 47088.0,
+     "bw": "none",
+     "mode": "all modes",
+     "cat": "all",
+     "use": ""
+    },
+    {
+     "f": 47088.0,
+     "t": 47090.0,
+     "bw": 2700,
+     "mode": "all modes",
+     "cat": "all",
+     "use": ""
+    },
+    {
+     "f": 47090.0,
+     "t": 47200.0,
+     "bw": "none",
+     "mode": "all modes",
+     "cat": "all",
+     "use": ""
+    }
+   ],
+   "notes": []
+  },
+  {
+   "id": "4mm",
+   "label": "4 mm",
+   "title": "75,500 – 81,500 GHz",
+   "src": "uwave",
+   "unit": "MHz",
+   "rows": [
+    {
+     "f": 75500.0,
+     "t": 76000.0,
+     "bw": 2700,
+     "mode": "all modes",
+     "cat": "sat",
+     "use": "Amateur satellite service (preferred); 75976.200 preferred narrow band centre of activity"
+    },
+    {
+     "f": 76000.0,
+     "t": 77500.0,
+     "bw": "none",
+     "mode": "all modes",
+     "cat": "all",
+     "use": "76032.200 narrow band centre of activity in some countries (not preferred)"
+    },
+    {
+     "f": 77500.0,
+     "t": 77501.0,
+     "bw": 2700,
+     "mode": "all modes",
+     "cat": "sat",
+     "use": "Amateur satellite service; 77500.200 preferred narrow band centre of activity in countries outside the CEPT area"
+    },
+    {
+     "f": 77501.0,
+     "t": 78000.0,
+     "bw": "none",
+     "mode": "all modes",
+     "cat": "sat",
+     "use": "Amateur satellite service, preferred segment"
+    },
+    {
+     "f": 78000.0,
+     "t": 81500.0,
+     "bw": "none",
+     "mode": "all modes",
+     "cat": "all",
+     "use": "Not preferred segment"
+    }
+   ],
+   "notes": [
+    "Die Zuordnung der Zeile „Amateur Satellite Service“ zu den Segmenten ist im Quell-PDF nur durch das Layout erkennbar; bitte im Original prüfen."
+   ]
+  },
+  {
+   "id": "2.5mm",
+   "label": "2,5 mm",
+   "title": "122,250 – 123,000 GHz",
+   "src": "uwave",
+   "unit": "MHz",
+   "rows": [
+    {
+     "f": 122250.0,
+     "t": 122251.0,
+     "bw": 2700,
+     "mode": "all modes",
+     "cat": "narrow",
+     "use": "Narrow band modes"
+    },
+    {
+     "f": 122251.0,
+     "t": 123000.0,
+     "bw": "none",
+     "mode": "all modes",
+     "cat": "all",
+     "use": ""
+    }
+   ],
+   "notes": []
+  },
+  {
+   "id": "2mm",
+   "label": "2 mm",
+   "title": "134,000 – 141,000 GHz",
+   "src": "uwave",
+   "unit": "MHz",
+   "rows": [
+    {
+     "f": 134000.0,
+     "t": 134928.0,
+     "bw": "none",
+     "mode": "all modes",
+     "cat": "sat",
+     "use": "Amateur satellite service"
+    },
+    {
+     "f": 134928.0,
+     "t": 134930.0,
+     "bw": 2700,
+     "mode": "all modes",
+     "cat": "narrow",
+     "use": "134930 narrow band centre of activity"
+    },
+    {
+     "f": 134930.0,
+     "t": 136000.0,
+     "bw": "none",
+     "mode": "all modes",
+     "cat": "all",
+     "use": ""
+    },
+    {
+     "f": 136000.0,
+     "t": 141000.0,
+     "bw": "none",
+     "mode": "all modes",
+     "cat": "all",
+     "use": "Not preferred segment"
+    }
+   ],
+   "notes": []
+  },
+  {
+   "id": "1.2mm",
+   "label": "1,2 mm",
+   "title": "241,000 – 250,000 GHz",
+   "src": "uwave",
+   "unit": "MHz",
+   "rows": [
+    {
+     "f": 241000.0,
+     "t": 248000.0,
+     "bw": "none",
+     "mode": "all modes",
+     "cat": "all",
+     "use": "Not preferred segment"
+    },
+    {
+     "f": 248000.0,
+     "t": 248001.0,
+     "bw": "none",
+     "mode": "all modes",
+     "cat": "sat",
+     "use": "Amateur satellite service and narrow band modes"
+    },
+    {
+     "f": 248001.0,
+     "t": 250000.0,
+     "bw": "none",
+     "mode": "all modes",
+     "cat": "all",
+     "use": "Preferred segment"
     }
    ],
    "notes": []

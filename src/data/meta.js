@@ -1,7 +1,7 @@
 // Metadata for the data set shown in the app. Update this file together with
 // anlage1.json / teilB.json whenever Anlage 1 AFuV changes.
 export const META = {
-  appVersion: '1.1.0',
+  appVersion: '1.1.1',
   law: 'Anlage 1 AFuV (Amateurfunkverordnung)',
   lawVersion: '3. AFuV-Änderung, BGBl. 2024 I Nr. 175 (Klasse N seit 24.06.2024)',
   checkedOn: '08.10.2026',
@@ -12,7 +12,7 @@ export const META = {
 
 export const SOURCES = [
   {
-    label: 'IARU Region 1: Bandpläne (HF, VHF, UHF)',
+    label: 'IARU Region 1: Bandpläne (HF, VHF, UHF, SHF, µWave) und VHF Handbook',
     url: 'https://www.iaru-r1.org/on-the-air/band-plans/',
   },
   {
@@ -38,6 +38,8 @@ export const BANDPLAN_META = {
   hfStand: 'HF 16.10.2020',
   vhfStand: 'VHF Dezember 2020',
   uhfStand: 'UHF Dezember 2020',
+  shfStand: 'SHF/µWave Dezember 2020',
+  handbook: 'V10.03 (Februar 2026)',
   checkedOn: '08.10.2026',
   url: 'https://www.iaru-r1.org/on-the-air/band-plans/',
 }

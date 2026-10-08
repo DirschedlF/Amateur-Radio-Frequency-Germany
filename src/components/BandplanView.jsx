@@ -10,7 +10,9 @@ const CLASS_BAR = { A: 'bg-blue-500', E: 'bg-green-500', N: 'bg-amber-500' }
 const GROUPS = [
   ['hf', 'Kurzwelle (HF)'],
   ['vhf', 'VHF'],
-  ['uhf', 'UHF / Mikrowelle'],
+  ['uhf', 'UHF'],
+  ['shf', 'SHF (3–24 GHz)'],
+  ['uwave', 'Mikrowelle (47–250 GHz)'],
 ]
 
 function CoverChip({ state, cls }) {
@@ -110,7 +112,7 @@ export default function BandplanView() {
         <p>
           <strong>Der Bandplan ist eine Empfehlung, kein Gesetz.</strong> Rechtlich verbindlich sind nur die Frequenzzuteilung
           in Anlage 1 AFuV und die Verfügungen der Bundesnetzagentur. Die Pläne stammen von der IARU Region 1 (Stand der
-          Quellen: {BANDPLAN_META.hfStand}, {BANDPLAN_META.vhfStand}, {BANDPLAN_META.uhfStand}). Neuere Fassungen können
+          Quellen: {BANDPLAN_META.hfStand}, {BANDPLAN_META.vhfStand}, {BANDPLAN_META.uhfStand}, {BANDPLAN_META.shfStand}; ergänzende Hinweise aus dem VHF Handbook {BANDPLAN_META.handbook}). Neuere Fassungen können
           abweichen. Die Spalten A, E, N zeigen, ob ein Segment in Anlage 1 für die Klasse zugewiesen ist.
           <strong> Angaben ohne Gewähr.</strong>
         </p>

@@ -184,7 +184,10 @@ bands.append(dict(id='2m', label='2 m', title='144 – 146 MHz', src='vhf', unit
     (145.575, 145.7935, '12 kHz', 'FM/Digital Voice', 'fm', 'Repeater output exclusive'),
     (145.794, 145.806, '12 kHz', 'FM/Digital Voice', 'sat', 'Space communication'),
     (145.806, 146.000, '12 kHz', 'All mode', 'sat', 'Satellite exclusive'),
-]), notes=['In dieser Tabelle der IARU ist 144,9625–144,975 MHz nicht belegt. Das DARC-Referat VHF/UHF/SHF führt außerdem einen eigenen 2-m-Bandplan (Stand 08/2017) mit abweichender Detailgliederung.']))
+]), notes=['In dieser Tabelle der IARU ist 144,9625–144,975 MHz nicht belegt. Das DARC-Referat VHF/UHF/SHF führt außerdem einen eigenen 2-m-Bandplan (Stand 08/2017) mit abweichender Detailgliederung.',
+    'Unterhalb von 144,0025 MHz soll nicht gesendet werden (Schutzabstand zur Bandkante; Fußnote r, VHF Handbook 10.03).',
+    'Für FM-Sprechfunk mit Sonderstationen wie bemannten Raumfahrzeugen: 145,200 MHz Simplex oder 145,200/145,800 MHz im Split (Fußnote p, VHF Handbook 10.03).',
+    'Nationale Nutzung in einigen Ländern: 144,630–144,660 MHz Linear-Transponder-Ausgänge, 144,660–144,690 MHz Linear-Transponder-Eingänge (VHF Handbook 10.03).']))
 
 # --------------------------------------------------------------- UHF (MHz)
 bands.append(dict(id='70cm', label='70 cm', title='430 – 440 MHz', src='uhf', unit='MHz', rows=mhz([
@@ -202,7 +205,11 @@ bands.append(dict(id='70cm', label='70 cm', title='430 – 440 MHz', src='uhf', 
     (435.000, 436.000, 'none', 'Satellite service', 'sat', ''),
     (436.000, 438.000, 'none', 'Satellite service & DATV/data', 'sat', 'DATV/data centre of activity'),
     (438.000, 440.000, 'none', 'All mode', 'all', '438.025–438.175 Digital communication channels; 438.200–438.525 Digital communication repeater channels; 438.550–438.625 Multi mode; 438.650–439.425 Repeater output channels (7.6 MHz shift); 439.800–439.975 Digital communication link channels'),
-]), notes=[]))
+]), notes=[
+    '434,000 MHz: LoRa-Experimente; Datenmodi mit höchstens 125 kHz Bandbreite (Fußnote p, VHF Handbook 10.03).',
+    'Seit 01.01.2021 ist analoges ATV/SATV im Band 430–440 MHz nicht mehr vorgesehen; DATV mit geringer Bandbreite bleibt im Bereich 436–438 MHz möglich, dort hat der Amateurfunk-Satellitendienst Vorrang (VHF Handbook 10.03).',
+    'Nationale Nutzung in einigen Ländern: 432,500–432,600 MHz Linear-Transponder-Eingänge, 432,600–432,800 MHz Linear-Transponder-Ausgänge (VHF Handbook 10.03).']))
+
 bands.append(dict(id='23cm', label='23 cm', title='1.240 – 1.300 MHz', src='uhf', unit='MHz', rows=mhz([
     (1240.000, 1240.500, 2700, 'all modes', 'other', 'Reserved for the future'),
     (1240.500, 1240.750, 500, 'MGM & Telegraphy', 'beacon', 'Beacons (reserved for the future)'),
@@ -232,10 +239,80 @@ bands.append(dict(id='13cm', label='13 cm', title='2.300 – 2.450 MHz', src='uh
     (2400.000, 2450.000, '', 'amateur satellite service', 'sat', '2400–2402 narrow band segment in countries where the 2320–2322 segment is not available; 2427–2443 ATV if no satellite uses this segment'),
 ]), notes=[]))
 
+# --------------------------------------------------------------- SHF (MHz)
+bands.append(dict(id='9cm', label='9 cm', title='3.400 – 3.475 MHz', src='shf', unit='MHz', rows=mhz([
+    (3400.000, 3400.800, 500, 'MGM & Telegraphy', 'narrow', '3400.100 EME centre of activity; 3400.750–3400.800 local beacons'),
+    (3400.800, 3400.995, 500, 'MGM & Telegraphy', 'beacon', 'Beacons only'),
+    (3401.000, 3402.000, 2700, 'all modes', 'all', ''),
+    (3402.000, 3410.000, 'none', 'all modes', 'sat', 'Satellite downlinks'),
+    (3410.000, 3475.000, 'none', 'all modes', 'all', ''),
+]), notes=['Die Quelle nennt für das erste Segment „340,800“ als Obergrenze; gemeint ist 3400,800 MHz (passend zum Folgesegment).']))
+bands.append(dict(id='6cm', label='6 cm', title='5.650 – 5.850 MHz', src='shf', unit='MHz', rows=mhz([
+    (5650.000, 5668.000, 2700, 'all modes', 'sat', 'Amateur satellite service (uplink); 5668.200 narrow band centre of activity (a)'),
+    (5668.000, 5670.000, 2700, 'all modes', 'sat', 'Amateur satellite service (uplink)'),
+    (5670.000, 5700.000, 'none', 'MGM', 'narrow', ''),
+    (5720.000, 5760.000, 'none', 'all modes', 'all', ''),
+    (5760.000, 5760.800, 2700, 'all modes', 'all', '5760.200 narrow band centre of activity; 5760.750–5760.800 local beacons'),
+    (5760.800, 5760.990, 'none', 'MGM & Telegraphy', 'beacon', 'Beacons only'),
+    (5761.000, 5762.000, 2700, 'all modes', 'all', ''),
+    (5762.000, 5790.000, 'none', 'all modes', 'all', ''),
+    (5790.000, 5850.000, 'none', 'all modes', 'sat', 'Amateur satellite service (downlink)'),
+]), notes=[]))
+bands.append(dict(id='3cm', label='3 cm', title='10,000 – 10,500 GHz', src='shf', unit='MHz', rows=mhz([
+    (10000.000, 10150.000, 'none', 'MGM', 'narrow', ''),
+    (10150.000, 10250.000, 'none', 'all modes', 'all', ''),
+    (10250.000, 10350.000, 'none', 'MGM', 'narrow', ''),
+    (10350.000, 10368.000, 'none', 'all modes', 'all', ''),
+    (10368.000, 10368.800, 2700, 'all modes', 'all', '10368.200 narrow band centre of activity; 10368.750–10368.800 local beacons'),
+    (10368.800, 10368.990, '', '', 'beacon', 'Beacons only'),
+    (10369.000, 10370.000, 2700, 'all modes', 'all', ''),
+    (10370.000, 10450.000, '', 'all modes', 'all', ''),
+    (10450.000, 10500.000, '', 'all modes', 'sat', 'Amateur satellite service; 10450–10452 narrow band modes in countries where 10368–10370 is not available'),
+]), notes=[]))
+bands.append(dict(id='1.2cm', label='1,2 cm', title='24,000 – 24,250 GHz', src='shf', unit='MHz', rows=mhz([
+    (24000.000, 24048.000, '', 'all modes', 'all', '24025 wideband centre of activity; 24048.2 narrow band centre of activity'),
+    (24048.000, 24048.800, 2700, 'all modes', 'sat', 'Amateur satellite service, narrow band modes; 24048.750–24048.800 local beacons'),
+    (24048.800, 24048.995, '', 'all modes', 'beacon', 'Beacons only'),
+    (24049.000, 24050.000, 2700, 'all modes', 'sat', 'Amateur satellite service, narrow band modes'),
+    (24050.000, 24250.000, '', 'all modes', 'all', ''),
+]), notes=['Die Quelle nennt die Zentren als „24.025“ und „24.0482“ (GHz); hier in MHz umgerechnet.']))
+
+# ------------------------------------------------------- Microwave (MHz)
+bands.append(dict(id='6mm', label='6 mm', title='47,000 – 47,200 GHz', src='uwave', unit='MHz', rows=mhz([
+    (47000.000, 47088.000, 'none', 'all modes', 'all', ''),
+    (47088.000, 47090.000, 2700, 'all modes', 'all', ''),
+    (47090.000, 47200.000, 'none', 'all modes', 'all', ''),
+]), notes=[]))
+bands.append(dict(id='4mm', label='4 mm', title='75,500 – 81,500 GHz', src='uwave', unit='MHz', rows=mhz([
+    (75500.000, 76000.000, 2700, 'all modes', 'sat', 'Amateur satellite service (preferred); 75976.200 preferred narrow band centre of activity'),
+    (76000.000, 77500.000, 'none', 'all modes', 'all', '76032.200 narrow band centre of activity in some countries (not preferred)'),
+    (77500.000, 77501.000, 2700, 'all modes', 'sat', 'Amateur satellite service; 77500.200 preferred narrow band centre of activity in countries outside the CEPT area'),
+    (77501.000, 78000.000, 'none', 'all modes', 'sat', 'Amateur satellite service, preferred segment'),
+    (78000.000, 81500.000, 'none', 'all modes', 'all', 'Not preferred segment'),
+]), notes=['Die Zuordnung der Zeile „Amateur Satellite Service“ zu den Segmenten ist im Quell-PDF nur durch das Layout erkennbar; bitte im Original prüfen.']))
+bands.append(dict(id='2.5mm', label='2,5 mm', title='122,250 – 123,000 GHz', src='uwave', unit='MHz', rows=mhz([
+    (122250.000, 122251.000, 2700, 'all modes', 'narrow', 'Narrow band modes'),
+    (122251.000, 123000.000, 'none', 'all modes', 'all', ''),
+]), notes=[]))
+bands.append(dict(id='2mm', label='2 mm', title='134,000 – 141,000 GHz', src='uwave', unit='MHz', rows=mhz([
+    (134000.000, 134928.000, 'none', 'all modes', 'sat', 'Amateur satellite service'),
+    (134928.000, 134930.000, 2700, 'all modes', 'narrow', '134930 narrow band centre of activity'),
+    (134930.000, 136000.000, 'none', 'all modes', 'all', ''),
+    (136000.000, 141000.000, 'none', 'all modes', 'all', 'Not preferred segment'),
+]), notes=[]))
+bands.append(dict(id='1.2mm', label='1,2 mm', title='241,000 – 250,000 GHz', src='uwave', unit='MHz', rows=mhz([
+    (241000.000, 248000.000, 'none', 'all modes', 'all', 'Not preferred segment'),
+    (248000.000, 248001.000, 'none', 'all modes', 'sat', 'Amateur satellite service and narrow band modes'),
+    (248001.000, 250000.000, 'none', 'all modes', 'all', 'Preferred segment'),
+]), notes=[]))
+
+
 sources = {
     'hf': dict(title='IARU Region 1 HF Band Plan', effective='16.10.2020', editor='DF5JL', note='Erstellt nach der Region-1-Konferenz Novi Sad 2020'),
     'vhf': dict(title='IARU Region 1 VHF Band Plan', effective='Dezember 2020 (VGC Novi Sad)', editor='ON4AVJ (02.12.2020)'),
     'uhf': dict(title='IARU Region 1 UHF Band Plan', effective='Dezember 2020 (VGC Novi Sad)', editor='ON4AVJ (PDF vom 18.03.2021)'),
+    'shf': dict(title='IARU Region 1 SHF Band Plan', effective='Dezember 2020 (VGC Novi Sad)', editor='ON4AVJ (02.12.2020)'),
+    'uwave': dict(title='IARU Region 1 µWave Band Plan', effective='Dezember 2020 (VGC Novi Sad)', editor='ON4AVJ (02.12.2020)'),
 }
 
 hf_notes = [
