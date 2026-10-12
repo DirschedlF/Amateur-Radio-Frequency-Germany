@@ -1,0 +1,1156 @@
+{
+ "source": "WSJT-X Working Frequencies, exported via Settings > Frequencies > Save (.qrg.json)",
+ "wsjtx_version": "3.2.1 261001",
+ "exported_at": "2026-10-12T21:39:04Z",
+ "note": "Only the modes FT8, FT4, WSPR, FT2, FST4, FST4W, JT65, JT9, JT4, Q65, MSK144, Echo; frequency in MHz. Region as in WSJT-X (All, Region 1, 2, 3). Not copied: FreqCal, JTTY, QO-100 transponder rows.",
+ "frequencies": [
+  {
+   "mode": "Echo",
+   "region": "All",
+   "mhz": 50.2,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "Echo",
+   "region": "All",
+   "mhz": 144.12,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "Echo",
+   "region": "Region 2",
+   "mhz": 222.065,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "Echo",
+   "region": "All",
+   "mhz": 432.065,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "Echo",
+   "region": "All",
+   "mhz": 1296.065,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "Echo",
+   "region": "All",
+   "mhz": 2301.0,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "Echo",
+   "region": "All",
+   "mhz": 2304.065,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "Echo",
+   "region": "All",
+   "mhz": 2320.065,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "Echo",
+   "region": "All",
+   "mhz": 3400.065,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "Echo",
+   "region": "All",
+   "mhz": 5760.065,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "Echo",
+   "region": "All",
+   "mhz": 10368.1,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "Echo",
+   "region": "All",
+   "mhz": 24048.1,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "FST4",
+   "region": "All",
+   "mhz": 0.136,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "FST4",
+   "region": "All",
+   "mhz": 0.4742,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "FST4",
+   "region": "All",
+   "mhz": 1.839,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "FST4W",
+   "region": "All",
+   "mhz": 0.136,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "FST4W",
+   "region": "All",
+   "mhz": 0.4742,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "FST4W",
+   "region": "All",
+   "mhz": 1.8368,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "FST4W",
+   "region": "All",
+   "mhz": 3.5686,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "FST4W",
+   "region": "All",
+   "mhz": 7.0386,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "FST4W",
+   "region": "All",
+   "mhz": 10.1387,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "FST4W",
+   "region": "All",
+   "mhz": 14.0956,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "FST4W",
+   "region": "All",
+   "mhz": 18.1046,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "FST4W",
+   "region": "All",
+   "mhz": 21.0946,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "FST4W",
+   "region": "All",
+   "mhz": 24.9246,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "FST4W",
+   "region": "All",
+   "mhz": 28.1246,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "FST4W",
+   "region": "Region 2",
+   "mhz": 50.293,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "FST4W",
+   "region": "Region 3",
+   "mhz": 50.293,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "FST4W",
+   "region": "Region 1",
+   "mhz": 70.091,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "FST4W",
+   "region": "All",
+   "mhz": 144.489,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "FT2",
+   "region": "All",
+   "mhz": 1.843,
+   "preferred": true,
+   "description": ""
+  },
+  {
+   "mode": "FT2",
+   "region": "Region 3",
+   "mhz": 3.578,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "FT2",
+   "region": "All",
+   "mhz": 5.357,
+   "preferred": true,
+   "description": ""
+  },
+  {
+   "mode": "FT2",
+   "region": "All",
+   "mhz": 7.052,
+   "preferred": true,
+   "description": ""
+  },
+  {
+   "mode": "FT2",
+   "region": "All",
+   "mhz": 10.144,
+   "preferred": true,
+   "description": ""
+  },
+  {
+   "mode": "FT2",
+   "region": "All",
+   "mhz": 14.084,
+   "preferred": true,
+   "description": ""
+  },
+  {
+   "mode": "FT2",
+   "region": "All",
+   "mhz": 18.108,
+   "preferred": true,
+   "description": ""
+  },
+  {
+   "mode": "FT2",
+   "region": "All",
+   "mhz": 21.144,
+   "preferred": true,
+   "description": ""
+  },
+  {
+   "mode": "FT2",
+   "region": "All",
+   "mhz": 24.923,
+   "preferred": true,
+   "description": ""
+  },
+  {
+   "mode": "FT2",
+   "region": "All",
+   "mhz": 28.184,
+   "preferred": true,
+   "description": ""
+  },
+  {
+   "mode": "FT2",
+   "region": "All",
+   "mhz": 50.32,
+   "preferred": true,
+   "description": ""
+  },
+  {
+   "mode": "FT2",
+   "region": "All",
+   "mhz": 144.177,
+   "preferred": true,
+   "description": ""
+  },
+  {
+   "mode": "FT4",
+   "region": "Region 3",
+   "mhz": 3.568,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "FT4",
+   "region": "All",
+   "mhz": 3.575,
+   "preferred": true,
+   "description": ""
+  },
+  {
+   "mode": "FT4",
+   "region": "All",
+   "mhz": 5.357,
+   "preferred": true,
+   "description": ""
+  },
+  {
+   "mode": "FT4",
+   "region": "All",
+   "mhz": 7.0475,
+   "preferred": true,
+   "description": ""
+  },
+  {
+   "mode": "FT4",
+   "region": "All",
+   "mhz": 10.14,
+   "preferred": true,
+   "description": ""
+  },
+  {
+   "mode": "FT4",
+   "region": "All",
+   "mhz": 14.08,
+   "preferred": true,
+   "description": ""
+  },
+  {
+   "mode": "FT4",
+   "region": "All",
+   "mhz": 18.104,
+   "preferred": true,
+   "description": ""
+  },
+  {
+   "mode": "FT4",
+   "region": "All",
+   "mhz": 21.14,
+   "preferred": true,
+   "description": ""
+  },
+  {
+   "mode": "FT4",
+   "region": "All",
+   "mhz": 24.919,
+   "preferred": true,
+   "description": ""
+  },
+  {
+   "mode": "FT4",
+   "region": "All",
+   "mhz": 28.18,
+   "preferred": true,
+   "description": ""
+  },
+  {
+   "mode": "FT4",
+   "region": "All",
+   "mhz": 50.318,
+   "preferred": true,
+   "description": ""
+  },
+  {
+   "mode": "FT4",
+   "region": "All",
+   "mhz": 144.17,
+   "preferred": true,
+   "description": ""
+  },
+  {
+   "mode": "FT8",
+   "region": "All",
+   "mhz": 1.84,
+   "preferred": true,
+   "description": ""
+  },
+  {
+   "mode": "FT8",
+   "region": "All",
+   "mhz": 3.567,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "FT8",
+   "region": "All",
+   "mhz": 3.573,
+   "preferred": true,
+   "description": ""
+  },
+  {
+   "mode": "FT8",
+   "region": "All",
+   "mhz": 5.357,
+   "preferred": true,
+   "description": ""
+  },
+  {
+   "mode": "FT8",
+   "region": "All",
+   "mhz": 7.056,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "FT8",
+   "region": "All",
+   "mhz": 7.074,
+   "preferred": true,
+   "description": ""
+  },
+  {
+   "mode": "FT8",
+   "region": "All",
+   "mhz": 10.131,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "FT8",
+   "region": "All",
+   "mhz": 10.136,
+   "preferred": true,
+   "description": ""
+  },
+  {
+   "mode": "FT8",
+   "region": "All",
+   "mhz": 14.074,
+   "preferred": true,
+   "description": ""
+  },
+  {
+   "mode": "FT8",
+   "region": "All",
+   "mhz": 14.09,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "FT8",
+   "region": "All",
+   "mhz": 18.095,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "FT8",
+   "region": "All",
+   "mhz": 18.1,
+   "preferred": true,
+   "description": ""
+  },
+  {
+   "mode": "FT8",
+   "region": "All",
+   "mhz": 21.074,
+   "preferred": true,
+   "description": ""
+  },
+  {
+   "mode": "FT8",
+   "region": "All",
+   "mhz": 21.091,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "FT8",
+   "region": "All",
+   "mhz": 24.911,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "FT8",
+   "region": "All",
+   "mhz": 24.915,
+   "preferred": true,
+   "description": ""
+  },
+  {
+   "mode": "FT8",
+   "region": "All",
+   "mhz": 28.074,
+   "preferred": true,
+   "description": ""
+  },
+  {
+   "mode": "FT8",
+   "region": "All",
+   "mhz": 28.091,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "FT8",
+   "region": "All",
+   "mhz": 50.313,
+   "preferred": true,
+   "description": ""
+  },
+  {
+   "mode": "FT8",
+   "region": "All",
+   "mhz": 50.323,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "FT8",
+   "region": "Region 1",
+   "mhz": 70.154,
+   "preferred": true,
+   "description": ""
+  },
+  {
+   "mode": "FT8",
+   "region": "All",
+   "mhz": 144.174,
+   "preferred": true,
+   "description": ""
+  },
+  {
+   "mode": "FT8",
+   "region": "Region 2",
+   "mhz": 222.174,
+   "preferred": true,
+   "description": ""
+  },
+  {
+   "mode": "FT8",
+   "region": "All",
+   "mhz": 432.174,
+   "preferred": true,
+   "description": ""
+  },
+  {
+   "mode": "FT8",
+   "region": "All",
+   "mhz": 1296.174,
+   "preferred": true,
+   "description": ""
+  },
+  {
+   "mode": "JT4",
+   "region": "All",
+   "mhz": 2301.065,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "JT4",
+   "region": "All",
+   "mhz": 2304.065,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "JT4",
+   "region": "All",
+   "mhz": 2320.065,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "JT4",
+   "region": "All",
+   "mhz": 3400.065,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "JT4",
+   "region": "All",
+   "mhz": 5760.065,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "JT4",
+   "region": "All",
+   "mhz": 10368.2,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "JT4",
+   "region": "All",
+   "mhz": 24048.2,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "JT65",
+   "region": "All",
+   "mhz": 1.838,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "JT65",
+   "region": "All",
+   "mhz": 3.57,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "JT65",
+   "region": "All",
+   "mhz": 5.357,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "JT65",
+   "region": "All",
+   "mhz": 7.076,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "JT65",
+   "region": "All",
+   "mhz": 10.138,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "JT65",
+   "region": "All",
+   "mhz": 14.076,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "JT65",
+   "region": "All",
+   "mhz": 18.102,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "JT65",
+   "region": "All",
+   "mhz": 21.076,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "JT65",
+   "region": "All",
+   "mhz": 24.917,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "JT65",
+   "region": "All",
+   "mhz": 28.076,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "JT65",
+   "region": "Region 2",
+   "mhz": 50.276,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "JT65",
+   "region": "Region 3",
+   "mhz": 50.276,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "JT65",
+   "region": "All",
+   "mhz": 50.31,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "JT65",
+   "region": "Region 1",
+   "mhz": 70.102,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "JT65",
+   "region": "All",
+   "mhz": 144.12,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "JT65",
+   "region": "Region 2",
+   "mhz": 222.065,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "JT65",
+   "region": "All",
+   "mhz": 432.065,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "JT65",
+   "region": "Region 2",
+   "mhz": 902.065,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "JT65",
+   "region": "All",
+   "mhz": 1296.065,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "JT65",
+   "region": "All",
+   "mhz": 2301.065,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "JT65",
+   "region": "All",
+   "mhz": 2304.065,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "JT65",
+   "region": "All",
+   "mhz": 2320.065,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "JT65",
+   "region": "All",
+   "mhz": 3400.065,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "JT65",
+   "region": "All",
+   "mhz": 5760.065,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "JT9",
+   "region": "All",
+   "mhz": 0.136,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "JT9",
+   "region": "All",
+   "mhz": 0.4742,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "JT9",
+   "region": "All",
+   "mhz": 1.839,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "JT9",
+   "region": "All",
+   "mhz": 3.572,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "JT9",
+   "region": "All",
+   "mhz": 5.357,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "JT9",
+   "region": "All",
+   "mhz": 7.078,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "JT9",
+   "region": "All",
+   "mhz": 10.14,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "JT9",
+   "region": "All",
+   "mhz": 14.078,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "JT9",
+   "region": "All",
+   "mhz": 18.104,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "JT9",
+   "region": "All",
+   "mhz": 21.078,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "JT9",
+   "region": "All",
+   "mhz": 24.919,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "JT9",
+   "region": "All",
+   "mhz": 28.078,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "JT9",
+   "region": "All",
+   "mhz": 50.312,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "JT9",
+   "region": "Region 1",
+   "mhz": 70.104,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "MSK144",
+   "region": "Region 2",
+   "mhz": 50.26,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "MSK144",
+   "region": "Region 3",
+   "mhz": 50.26,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "MSK144",
+   "region": "Region 1",
+   "mhz": 50.38,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "MSK144",
+   "region": "Region 1",
+   "mhz": 70.23,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "MSK144",
+   "region": "Region 2",
+   "mhz": 144.15,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "MSK144",
+   "region": "Region 1",
+   "mhz": 144.36,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "MSK144",
+   "region": "All",
+   "mhz": 432.36,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "Q65",
+   "region": "All",
+   "mhz": 50.211,
+   "preferred": false,
+   "description": "EME"
+  },
+  {
+   "mode": "Q65",
+   "region": "All",
+   "mhz": 50.275,
+   "preferred": true,
+   "description": ""
+  },
+  {
+   "mode": "Q65",
+   "region": "All",
+   "mhz": 144.116,
+   "preferred": false,
+   "description": "EME"
+  },
+  {
+   "mode": "Q65",
+   "region": "All",
+   "mhz": 144.18,
+   "preferred": true,
+   "description": ""
+  },
+  {
+   "mode": "Q65",
+   "region": "Region 2",
+   "mhz": 222.065,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "Q65",
+   "region": "All",
+   "mhz": 432.065,
+   "preferred": false,
+   "description": "EME"
+  },
+  {
+   "mode": "Q65",
+   "region": "Region 2",
+   "mhz": 902.065,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "Q65",
+   "region": "All",
+   "mhz": 1296.065,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "Q65",
+   "region": "All",
+   "mhz": 2301.065,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "Q65",
+   "region": "All",
+   "mhz": 2304.065,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "Q65",
+   "region": "All",
+   "mhz": 2320.065,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "Q65",
+   "region": "All",
+   "mhz": 3400.065,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "Q65",
+   "region": "All",
+   "mhz": 5760.2,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "Q65",
+   "region": "All",
+   "mhz": 10368.2,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "Q65",
+   "region": "All",
+   "mhz": 24048.2,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "WSPR",
+   "region": "All",
+   "mhz": 0.136,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "WSPR",
+   "region": "All",
+   "mhz": 0.4742,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "WSPR",
+   "region": "All",
+   "mhz": 1.8366,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "WSPR",
+   "region": "All",
+   "mhz": 3.5686,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "WSPR",
+   "region": "All",
+   "mhz": 5.3647,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "WSPR",
+   "region": "All",
+   "mhz": 7.0386,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "WSPR",
+   "region": "All",
+   "mhz": 10.1387,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "WSPR",
+   "region": "All",
+   "mhz": 14.0956,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "WSPR",
+   "region": "All",
+   "mhz": 18.1046,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "WSPR",
+   "region": "All",
+   "mhz": 21.0946,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "WSPR",
+   "region": "All",
+   "mhz": 24.9246,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "WSPR",
+   "region": "All",
+   "mhz": 28.1246,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "WSPR",
+   "region": "Region 2",
+   "mhz": 50.293,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "WSPR",
+   "region": "Region 3",
+   "mhz": 50.293,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "WSPR",
+   "region": "Region 1",
+   "mhz": 70.091,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "WSPR",
+   "region": "All",
+   "mhz": 144.489,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "WSPR",
+   "region": "All",
+   "mhz": 432.3,
+   "preferred": false,
+   "description": ""
+  },
+  {
+   "mode": "WSPR",
+   "region": "All",
+   "mhz": 1296.5,
+   "preferred": false,
+   "description": ""
+  }
+ ]
+}

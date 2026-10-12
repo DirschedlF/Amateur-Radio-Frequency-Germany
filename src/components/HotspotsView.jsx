@@ -72,8 +72,9 @@ export default function HotspotsView() {
             zugewiesen ist (Leistungsgrenzen und Teil B nicht geprüft). <strong>Angaben ohne Gewähr.</strong>
           </p>
           <p>
-            Digimodes (FT8) sind Dial-Frequenzen, gesendet wird in USB. FT4, WSPR sowie FT8 auf 60 m, 6 m und 2 m sind noch
-            nicht enthalten, weil dafür keine geprüfte Quelle vorliegt. Stand der Daten: {HOTSPOTS_META.checkedOn}.
+            Die WSJT-X-Modi (FT8, FT4, FT2, WSPR, Q65, JT65 …) sind Dial-Frequenzen (USB), die Standardwerte der WSJT-X-Frequenztabelle für Region 1. Gesendet
+            wird je nach Tonhöhe rund 1 bis 3 kHz darüber. Prüfe, dass das Signal im Band bleibt. Stand der Daten:{' '}
+            {HOTSPOTS_META.checkedOn}.
           </p>
         </div>
       </div>
@@ -144,8 +145,14 @@ export default function HotspotsView() {
                           <CoverChip state={coverage({ f: r.f, t: r.f }, c)} cls={c} />
                         </td>
                       ))}
-                      <td className="px-3 py-2 align-top text-xs text-gray-400" title={hotspots.sources[r.src]}>
-                        {r.src === 'iaru' ? 'IARU R1' : 'DARC 2017'}
+                      <td
+                        className={`px-3 py-2 align-top text-xs whitespace-nowrap ${
+                          hotspots.sources[r.src].level === 'Sekundärquelle' ? 'text-amber-300' : 'text-gray-400'
+                        }`}
+                        title={`${hotspots.sources[r.src].level}: ${hotspots.sources[r.src].text}`}
+                      >
+                        {hotspots.sources[r.src].short}
+                        {hotspots.sources[r.src].level === 'Sekundärquelle' && <span className="block">Sekundärquelle</span>}
                       </td>
                     </tr>
                   )
@@ -160,7 +167,9 @@ export default function HotspotsView() {
         <summary className="cursor-pointer font-semibold text-white select-none">Quellen und Hinweise</summary>
         <ul className="list-disc pl-5 space-y-1 mt-3">
           {Object.entries(hotspots.sources).map(([k, v]) => (
-            <li key={k}>{v}</li>
+            <li key={k}>
+              <strong>{v.short}</strong> ({v.level}): {v.text}
+            </li>
           ))}
           <li>Centre of Activity (CoA) und Calling-Frequenzen sind Empfehlungen zum Treffen, keine Vorschrift und keine Leistungsgrenze.</li>
         </ul>

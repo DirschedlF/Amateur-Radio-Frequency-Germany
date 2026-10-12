@@ -1,7 +1,15 @@
 {
  "sources": {
-  "iaru": "IARU Region 1 Bandplan (HF 16.10.2020, VHF/UHF/SHF Dezember 2020)",
-  "darc17": "DARC DL-Rundspruch 33/2017 (DF5JL, HF-Referat): FT8-Dial-Frequenzen"
+  "iaru": {
+   "short": "IARU R1",
+   "level": "Bandplan",
+   "text": "IARU Region 1 Bandplan (HF 16.10.2020, VHF/UHF/SHF Dezember 2020)"
+  },
+  "wsjtx": {
+   "short": "WSJT-X 3.2.1",
+   "level": "Primärquelle",
+   "text": "WSJT-X 3.2.1 (Build 261001), Tabelle „Working Frequencies“ (Standardwerte), exportiert am 12.10.2026; FT8 160 m bis 10 m zusätzlich durch DARC DL-Rundspruch 33/2017 bestätigt"
+  }
  },
  "types": {
   "cw": "CW",
@@ -18,6 +26,62 @@
  },
  "entries": [
   {
+   "band": "2200m",
+   "f": 0.136,
+   "type": "weak",
+   "text": "FST4, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "2200m",
+   "f": 0.136,
+   "type": "weak",
+   "text": "FST4W, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "2200m",
+   "f": 0.136,
+   "type": "weak",
+   "text": "JT9, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "2200m",
+   "f": 0.136,
+   "type": "digital",
+   "text": "WSPR, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "630m",
+   "f": 0.4742,
+   "type": "weak",
+   "text": "FST4, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "630m",
+   "f": 0.4742,
+   "type": "weak",
+   "text": "FST4W, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "630m",
+   "f": 0.4742,
+   "type": "weak",
+   "text": "JT9, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "630m",
+   "f": 0.4742,
+   "type": "digital",
+   "text": "WSPR, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
    "band": "160m",
    "f": 1.836,
    "type": "qrp",
@@ -26,10 +90,52 @@
   },
   {
    "band": "160m",
+   "f": 1.8366,
+   "type": "digital",
+   "text": "WSPR, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "160m",
+   "f": 1.8368,
+   "type": "weak",
+   "text": "FST4W, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "160m",
+   "f": 1.838,
+   "type": "weak",
+   "text": "JT65, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "160m",
+   "f": 1.839,
+   "type": "weak",
+   "text": "FST4, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "160m",
+   "f": 1.839,
+   "type": "weak",
+   "text": "JT9, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "160m",
    "f": 1.84,
    "type": "digital",
    "text": "FT8, Dial-Frequenz (USB)",
-   "src": "darc17"
+   "src": "wsjtx"
+  },
+  {
+   "band": "160m",
+   "f": 1.843,
+   "type": "digital",
+   "text": "FT2, Dial-Frequenz (USB)",
+   "src": "wsjtx"
   },
   {
    "band": "80m",
@@ -47,10 +153,45 @@
   },
   {
    "band": "80m",
+   "f": 3.5686,
+   "type": "weak",
+   "text": "FST4W, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "80m",
+   "f": 3.5686,
+   "type": "digital",
+   "text": "WSPR, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "80m",
+   "f": 3.57,
+   "type": "weak",
+   "text": "JT65, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "80m",
+   "f": 3.572,
+   "type": "weak",
+   "text": "JT9, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "80m",
    "f": 3.573,
    "type": "digital",
    "text": "FT8, Dial-Frequenz (USB)",
-   "src": "darc17"
+   "src": "wsjtx"
+  },
+  {
+   "band": "80m",
+   "f": 3.575,
+   "type": "digital",
+   "text": "FT4, Dial-Frequenz (USB)",
+   "src": "wsjtx"
   },
   {
    "band": "80m",
@@ -81,11 +222,81 @@
    "src": "iaru"
   },
   {
+   "band": "60m",
+   "f": 5.357,
+   "type": "digital",
+   "text": "FT2, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "60m",
+   "f": 5.357,
+   "type": "digital",
+   "text": "FT4, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "60m",
+   "f": 5.357,
+   "type": "digital",
+   "text": "FT8, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "60m",
+   "f": 5.357,
+   "type": "weak",
+   "text": "JT65, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "60m",
+   "f": 5.357,
+   "type": "weak",
+   "text": "JT9, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "60m",
+   "f": 5.3647,
+   "type": "digital",
+   "text": "WSPR, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
    "band": "40m",
    "f": 7.03,
    "type": "qrp",
    "text": "CW QRP Centre of Activity",
    "src": "iaru"
+  },
+  {
+   "band": "40m",
+   "f": 7.0386,
+   "type": "weak",
+   "text": "FST4W, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "40m",
+   "f": 7.0386,
+   "type": "digital",
+   "text": "WSPR, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "40m",
+   "f": 7.0475,
+   "type": "digital",
+   "text": "FT4, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "40m",
+   "f": 7.052,
+   "type": "digital",
+   "text": "FT2, Dial-Frequenz (USB)",
+   "src": "wsjtx"
   },
   {
    "band": "40m",
@@ -99,7 +310,21 @@
    "f": 7.074,
    "type": "digital",
    "text": "FT8, Dial-Frequenz (USB)",
-   "src": "darc17"
+   "src": "wsjtx"
+  },
+  {
+   "band": "40m",
+   "f": 7.076,
+   "type": "weak",
+   "text": "JT65, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "40m",
+   "f": 7.078,
+   "type": "weak",
+   "text": "JT9, Dial-Frequenz (USB)",
+   "src": "wsjtx"
   },
   {
    "band": "40m",
@@ -134,7 +359,49 @@
    "f": 10.136,
    "type": "digital",
    "text": "FT8, Dial-Frequenz (USB)",
-   "src": "darc17"
+   "src": "wsjtx"
+  },
+  {
+   "band": "30m",
+   "f": 10.138,
+   "type": "weak",
+   "text": "JT65, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "30m",
+   "f": 10.1387,
+   "type": "weak",
+   "text": "FST4W, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "30m",
+   "f": 10.1387,
+   "type": "digital",
+   "text": "WSPR, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "30m",
+   "f": 10.14,
+   "type": "digital",
+   "text": "FT4, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "30m",
+   "f": 10.14,
+   "type": "weak",
+   "text": "JT9, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "30m",
+   "f": 10.144,
+   "type": "digital",
+   "text": "FT2, Dial-Frequenz (USB)",
+   "src": "wsjtx"
   },
   {
    "band": "20m",
@@ -155,7 +422,49 @@
    "f": 14.074,
    "type": "digital",
    "text": "FT8, Dial-Frequenz (USB)",
-   "src": "darc17"
+   "src": "wsjtx"
+  },
+  {
+   "band": "20m",
+   "f": 14.076,
+   "type": "weak",
+   "text": "JT65, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "20m",
+   "f": 14.078,
+   "type": "weak",
+   "text": "JT9, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "20m",
+   "f": 14.08,
+   "type": "digital",
+   "text": "FT4, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "20m",
+   "f": 14.084,
+   "type": "digital",
+   "text": "FT2, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "20m",
+   "f": 14.0956,
+   "type": "weak",
+   "text": "FST4W, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "20m",
+   "f": 14.0956,
+   "type": "digital",
+   "text": "WSPR, Dial-Frequenz (USB)",
+   "src": "wsjtx"
   },
   {
    "band": "20m",
@@ -204,7 +513,49 @@
    "f": 18.1,
    "type": "digital",
    "text": "FT8, Dial-Frequenz (USB)",
-   "src": "darc17"
+   "src": "wsjtx"
+  },
+  {
+   "band": "17m",
+   "f": 18.102,
+   "type": "weak",
+   "text": "JT65, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "17m",
+   "f": 18.104,
+   "type": "digital",
+   "text": "FT4, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "17m",
+   "f": 18.104,
+   "type": "weak",
+   "text": "JT9, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "17m",
+   "f": 18.1046,
+   "type": "weak",
+   "text": "FST4W, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "17m",
+   "f": 18.1046,
+   "type": "digital",
+   "text": "WSPR, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "17m",
+   "f": 18.108,
+   "type": "digital",
+   "text": "FT2, Dial-Frequenz (USB)",
+   "src": "wsjtx"
   },
   {
    "band": "17m",
@@ -246,7 +597,49 @@
    "f": 21.074,
    "type": "digital",
    "text": "FT8, Dial-Frequenz (USB)",
-   "src": "darc17"
+   "src": "wsjtx"
+  },
+  {
+   "band": "15m",
+   "f": 21.076,
+   "type": "weak",
+   "text": "JT65, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "15m",
+   "f": 21.078,
+   "type": "weak",
+   "text": "JT9, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "15m",
+   "f": 21.0946,
+   "type": "weak",
+   "text": "FST4W, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "15m",
+   "f": 21.0946,
+   "type": "digital",
+   "text": "WSPR, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "15m",
+   "f": 21.14,
+   "type": "digital",
+   "text": "FT4, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "15m",
+   "f": 21.144,
+   "type": "digital",
+   "text": "FT2, Dial-Frequenz (USB)",
+   "src": "wsjtx"
   },
   {
    "band": "15m",
@@ -288,7 +681,49 @@
    "f": 24.915,
    "type": "digital",
    "text": "FT8, Dial-Frequenz (USB)",
-   "src": "darc17"
+   "src": "wsjtx"
+  },
+  {
+   "band": "12m",
+   "f": 24.917,
+   "type": "weak",
+   "text": "JT65, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "12m",
+   "f": 24.919,
+   "type": "digital",
+   "text": "FT4, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "12m",
+   "f": 24.919,
+   "type": "weak",
+   "text": "JT9, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "12m",
+   "f": 24.923,
+   "type": "digital",
+   "text": "FT2, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "12m",
+   "f": 24.9246,
+   "type": "weak",
+   "text": "FST4W, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "12m",
+   "f": 24.9246,
+   "type": "digital",
+   "text": "WSPR, Dial-Frequenz (USB)",
+   "src": "wsjtx"
   },
   {
    "band": "12m",
@@ -323,7 +758,49 @@
    "f": 28.074,
    "type": "digital",
    "text": "FT8, Dial-Frequenz (USB)",
-   "src": "darc17"
+   "src": "wsjtx"
+  },
+  {
+   "band": "10m",
+   "f": 28.076,
+   "type": "weak",
+   "text": "JT65, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "10m",
+   "f": 28.078,
+   "type": "weak",
+   "text": "JT9, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "10m",
+   "f": 28.1246,
+   "type": "weak",
+   "text": "FST4W, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "10m",
+   "f": 28.1246,
+   "type": "digital",
+   "text": "WSPR, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "10m",
+   "f": 28.18,
+   "type": "digital",
+   "text": "FT4, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "10m",
+   "f": 28.184,
+   "type": "digital",
+   "text": "FT2, Dial-Frequenz (USB)",
+   "src": "wsjtx"
   },
   {
    "band": "10m",
@@ -383,9 +860,79 @@
   },
   {
    "band": "6m",
+   "f": 50.2,
+   "type": "weak",
+   "text": "Echo-Test (EME)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "6m",
+   "f": 50.211,
+   "type": "weak",
+   "text": "Q65, Dial-Frequenz (USB) (EME)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "6m",
+   "f": 50.275,
+   "type": "weak",
+   "text": "Q65, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "6m",
    "f": 50.305,
    "type": "digital",
    "text": "PSK Centre of Activity",
+   "src": "iaru"
+  },
+  {
+   "band": "6m",
+   "f": 50.31,
+   "type": "weak",
+   "text": "JT65, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "6m",
+   "f": 50.312,
+   "type": "weak",
+   "text": "JT9, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "6m",
+   "f": 50.313,
+   "type": "digital",
+   "text": "FT8, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "6m",
+   "f": 50.318,
+   "type": "digital",
+   "text": "FT4, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "6m",
+   "f": 50.32,
+   "type": "digital",
+   "text": "FT2, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "6m",
+   "f": 50.38,
+   "type": "weak",
+   "text": "MSK144, Dial-Frequenz (USB) (Region 1)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "6m",
+   "f": 50.401,
+   "type": "digital",
+   "text": "WSPR-Baken (±500 Hz)",
    "src": "iaru"
   },
   {
@@ -418,10 +965,52 @@
   },
   {
    "band": "4m",
+   "f": 70.091,
+   "type": "weak",
+   "text": "FST4W, Dial-Frequenz (USB) (Region 1)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "4m",
+   "f": 70.091,
+   "type": "digital",
+   "text": "WSPR, Dial-Frequenz (USB) (Region 1)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "4m",
+   "f": 70.102,
+   "type": "weak",
+   "text": "JT65, Dial-Frequenz (USB) (Region 1)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "4m",
+   "f": 70.104,
+   "type": "weak",
+   "text": "JT9, Dial-Frequenz (USB) (Region 1)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "4m",
+   "f": 70.154,
+   "type": "digital",
+   "text": "FT8, Dial-Frequenz (USB) (Region 1)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "4m",
    "f": 70.2,
    "type": "ssb",
    "text": "Centre of Activity CW/SSB calling",
    "src": "iaru"
+  },
+  {
+   "band": "4m",
+   "f": 70.23,
+   "type": "weak",
+   "text": "MSK144, Dial-Frequenz (USB) (Region 1)",
+   "src": "wsjtx"
   },
   {
    "band": "4m",
@@ -460,10 +1049,80 @@
   },
   {
    "band": "2m",
+   "f": 144.116,
+   "type": "weak",
+   "text": "Q65, Dial-Frequenz (USB) (EME)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "2m",
+   "f": 144.12,
+   "type": "weak",
+   "text": "Echo-Test (EME)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "2m",
+   "f": 144.12,
+   "type": "weak",
+   "text": "JT65, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "2m",
+   "f": 144.17,
+   "type": "digital",
+   "text": "FT4, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "2m",
+   "f": 144.174,
+   "type": "digital",
+   "text": "FT8, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "2m",
+   "f": 144.177,
+   "type": "digital",
+   "text": "FT2, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "2m",
+   "f": 144.18,
+   "type": "weak",
+   "text": "Q65, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "2m",
    "f": 144.3,
    "type": "ssb",
    "text": "SSB Centre of Activity",
    "src": "iaru"
+  },
+  {
+   "band": "2m",
+   "f": 144.36,
+   "type": "weak",
+   "text": "MSK144, Dial-Frequenz (USB) (Region 1)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "2m",
+   "f": 144.489,
+   "type": "weak",
+   "text": "FST4W, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "2m",
+   "f": 144.489,
+   "type": "digital",
+   "text": "WSPR, Dial-Frequenz (USB)",
+   "src": "wsjtx"
   },
   {
    "band": "2m",
@@ -509,10 +1168,52 @@
   },
   {
    "band": "70cm",
+   "f": 432.065,
+   "type": "weak",
+   "text": "Echo-Test (EME)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "70cm",
+   "f": 432.065,
+   "type": "weak",
+   "text": "JT65, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "70cm",
+   "f": 432.065,
+   "type": "weak",
+   "text": "Q65, Dial-Frequenz (USB) (EME)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "70cm",
+   "f": 432.174,
+   "type": "digital",
+   "text": "FT8, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "70cm",
    "f": 432.2,
    "type": "ssb",
    "text": "SSB Centre of Activity",
    "src": "iaru"
+  },
+  {
+   "band": "70cm",
+   "f": 432.3,
+   "type": "digital",
+   "text": "WSPR, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "70cm",
+   "f": 432.36,
+   "type": "weak",
+   "text": "MSK144, Dial-Frequenz (USB)",
+   "src": "wsjtx"
   },
   {
    "band": "70cm",
@@ -551,6 +1252,34 @@
   },
   {
    "band": "23cm",
+   "f": 1296.065,
+   "type": "weak",
+   "text": "Echo-Test (EME)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "23cm",
+   "f": 1296.065,
+   "type": "weak",
+   "text": "JT65, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "23cm",
+   "f": 1296.065,
+   "type": "weak",
+   "text": "Q65, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "23cm",
+   "f": 1296.174,
+   "type": "digital",
+   "text": "FT8, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "23cm",
    "f": 1296.2,
    "type": "ssb",
    "text": "Narrow band centre of activity",
@@ -562,6 +1291,13 @@
    "type": "image",
    "text": "Fax",
    "src": "iaru"
+  },
+  {
+   "band": "23cm",
+   "f": 1296.5,
+   "type": "digital",
+   "text": "WSPR, Dial-Frequenz (USB)",
+   "src": "wsjtx"
   },
   {
    "band": "23cm",
@@ -586,10 +1322,143 @@
   },
   {
    "band": "13cm",
+   "f": 2301.0,
+   "type": "weak",
+   "text": "Echo-Test (EME)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "13cm",
+   "f": 2301.065,
+   "type": "weak",
+   "text": "JT4, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "13cm",
+   "f": 2301.065,
+   "type": "weak",
+   "text": "JT65, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "13cm",
+   "f": 2301.065,
+   "type": "weak",
+   "text": "Q65, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "13cm",
+   "f": 2304.065,
+   "type": "weak",
+   "text": "Echo-Test (EME)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "13cm",
+   "f": 2304.065,
+   "type": "weak",
+   "text": "JT4, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "13cm",
+   "f": 2304.065,
+   "type": "weak",
+   "text": "JT65, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "13cm",
+   "f": 2304.065,
+   "type": "weak",
+   "text": "Q65, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "13cm",
+   "f": 2320.065,
+   "type": "weak",
+   "text": "Echo-Test (EME)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "13cm",
+   "f": 2320.065,
+   "type": "weak",
+   "text": "JT4, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "13cm",
+   "f": 2320.065,
+   "type": "weak",
+   "text": "JT65, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "13cm",
+   "f": 2320.065,
+   "type": "weak",
+   "text": "Q65, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "13cm",
    "f": 2320.2,
    "type": "ssb",
    "text": "SSB Centre of Activity",
    "src": "iaru"
+  },
+  {
+   "band": "9cm",
+   "f": 3400.065,
+   "type": "weak",
+   "text": "Echo-Test (EME)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "9cm",
+   "f": 3400.065,
+   "type": "weak",
+   "text": "JT4, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "9cm",
+   "f": 3400.065,
+   "type": "weak",
+   "text": "JT65, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "9cm",
+   "f": 3400.065,
+   "type": "weak",
+   "text": "Q65, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "6cm",
+   "f": 5760.065,
+   "type": "weak",
+   "text": "Echo-Test (EME)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "6cm",
+   "f": 5760.065,
+   "type": "weak",
+   "text": "JT4, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "6cm",
+   "f": 5760.065,
+   "type": "weak",
+   "text": "JT65, Dial-Frequenz (USB)",
+   "src": "wsjtx"
   },
   {
    "band": "6cm",
@@ -599,11 +1468,60 @@
    "src": "iaru"
   },
   {
+   "band": "6cm",
+   "f": 5760.2,
+   "type": "weak",
+   "text": "Q65, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "3cm",
+   "f": 10368.1,
+   "type": "weak",
+   "text": "Echo-Test (EME)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "3cm",
+   "f": 10368.2,
+   "type": "weak",
+   "text": "JT4, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
    "band": "3cm",
    "f": 10368.2,
    "type": "ssb",
    "text": "Narrow band centre of activity",
    "src": "iaru"
+  },
+  {
+   "band": "3cm",
+   "f": 10368.2,
+   "type": "weak",
+   "text": "Q65, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "1.2cm",
+   "f": 24048.1,
+   "type": "weak",
+   "text": "Echo-Test (EME)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "1.2cm",
+   "f": 24048.2,
+   "type": "weak",
+   "text": "JT4, Dial-Frequenz (USB)",
+   "src": "wsjtx"
+  },
+  {
+   "band": "1.2cm",
+   "f": 24048.2,
+   "type": "weak",
+   "text": "Q65, Dial-Frequenz (USB)",
+   "src": "wsjtx"
   }
  ]
 }

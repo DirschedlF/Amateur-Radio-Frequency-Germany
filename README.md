@@ -23,7 +23,7 @@ Sortierbare Übersicht aller deutschen Amateurfunk-Frequenzbereiche (Langwelle b
 - CSV export (semicolon, UTF-8 BOM, Excel-ready) and print layout (A4 landscape)
 - Info panels: reading guide, satellite explanation, Teil B, further rules (BEMFV, AFuV §§ 11/16/17), sources
 - **New in 1.1:** IARU Region 1 band plan view (HF 2200 m–10 m, VHF 6 m/4 m/2 m, UHF 70 cm/23 cm/13 cm, SHF 9 cm–1,2 cm and microwave 6 mm–1,2 mm since 1.1.1): segment bar chart, max. bandwidth, mode and usage per segment, and for each segment whether Anlage 1 grants it to class A, E or N
-- **Activity frequencies** view (`#hotspots`): centres of activity and calling frequencies for CW, QRP, SSTV, digital voice, FM, DX, emergency and FT8 (160 m–10 m), each with its source and the Anlage 1 check for class A, E, N. FT4 and WSPR are not included yet (no verified source)
+- **Activity frequencies** view (`#hotspots`): centres of activity and calling frequencies for CW, QRP, SSTV, digital voice, FM, DX, emergency and the WSJT-X modes (FT8, FT4, FT2, WSPR, Q65, JT65, JT9, MSK144, ...), each with its source and the Anlage 1 check for class A, E, N. The WSJT-X modes come from the WSJT-X 3.2.1 default frequency table (Region 1).
 - Band plan is a recommendation, not law: clearly labelled in the app, with the source version shown
 - Prominent disclaimer banner ("Angaben ohne Gewähr")
 - Standalone single-file HTML build that works offline

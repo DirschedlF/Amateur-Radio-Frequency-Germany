@@ -1,7 +1,7 @@
 // Metadata for the data set shown in the app. Update this file together with
 // anlage1.json / teilB.json whenever Anlage 1 AFuV changes.
 export const META = {
-  appVersion: '1.2.0',
+  appVersion: '1.2.1',
   law: 'Anlage 1 AFuV (Amateurfunkverordnung)',
   lawVersion: '3. AFuV-Änderung, BGBl. 2024 I Nr. 175 (Klasse N seit 24.06.2024)',
   checkedOn: '08.10.2026',
