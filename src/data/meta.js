@@ -1,7 +1,7 @@
 // Metadata for the data set shown in the app. Update this file together with
 // anlage1.json / teilB.json whenever Anlage 1 AFuV changes.
 export const META = {
-  appVersion: '1.1.1',
+  appVersion: '1.2.0',
   law: 'Anlage 1 AFuV (Amateurfunkverordnung)',
   lawVersion: '3. AFuV-Änderung, BGBl. 2024 I Nr. 175 (Klasse N seit 24.06.2024)',
   checkedOn: '08.10.2026',
@@ -42,4 +42,10 @@ export const BANDPLAN_META = {
   handbook: 'V10.03 (Februar 2026)',
   checkedOn: '08.10.2026',
   url: 'https://www.iaru-r1.org/on-the-air/band-plans/',
+}
+
+// Frequencies of activity (CW, QRP, SSTV, FT8, DX ...), shown in the "Aktivitätsfrequenzen" view.
+// Generated from scripts/gen_hotspots.py, update checkedOn when the data changes.
+export const HOTSPOTS_META = {
+  checkedOn: '12.10.2026',
 }

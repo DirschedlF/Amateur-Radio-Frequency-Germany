@@ -1,0 +1,609 @@
+{
+ "sources": {
+  "iaru": "IARU Region 1 Bandplan (HF 16.10.2020, VHF/UHF/SHF Dezember 2020)",
+  "darc17": "DARC DL-Rundspruch 33/2017 (DF5JL, HF-Referat): FT8-Dial-Frequenzen"
+ },
+ "types": {
+  "cw": "CW",
+  "qrp": "QRP",
+  "digital": "Digimodes",
+  "image": "SSTV / Bild",
+  "dv": "Digital Voice",
+  "ssb": "SSB",
+  "fm": "FM",
+  "dx": "DX",
+  "emergency": "Notfunk",
+  "aprs": "APRS",
+  "weak": "Weak Signal"
+ },
+ "entries": [
+  {
+   "band": "160m",
+   "f": 1.836,
+   "type": "qrp",
+   "text": "CW QRP Centre of Activity",
+   "src": "iaru"
+  },
+  {
+   "band": "160m",
+   "f": 1.84,
+   "type": "digital",
+   "text": "FT8, Dial-Frequenz (USB)",
+   "src": "darc17"
+  },
+  {
+   "band": "80m",
+   "f": 3.555,
+   "type": "cw",
+   "text": "CW QRS Centre of Activity",
+   "src": "iaru"
+  },
+  {
+   "band": "80m",
+   "f": 3.56,
+   "type": "qrp",
+   "text": "CW QRP Centre of Activity",
+   "src": "iaru"
+  },
+  {
+   "band": "80m",
+   "f": 3.573,
+   "type": "digital",
+   "text": "FT8, Dial-Frequenz (USB)",
+   "src": "darc17"
+  },
+  {
+   "band": "80m",
+   "f": 3.63,
+   "type": "dv",
+   "text": "Digital Voice Centre of Activity",
+   "src": "iaru"
+  },
+  {
+   "band": "80m",
+   "f": 3.69,
+   "type": "qrp",
+   "text": "SSB QRP Centre of Activity",
+   "src": "iaru"
+  },
+  {
+   "band": "80m",
+   "f": 3.735,
+   "type": "image",
+   "text": "Image Centre of Activity",
+   "src": "iaru"
+  },
+  {
+   "band": "80m",
+   "f": 3.76,
+   "type": "emergency",
+   "text": "Region 1 Emergency Centre of Activity",
+   "src": "iaru"
+  },
+  {
+   "band": "40m",
+   "f": 7.03,
+   "type": "qrp",
+   "text": "CW QRP Centre of Activity",
+   "src": "iaru"
+  },
+  {
+   "band": "40m",
+   "f": 7.07,
+   "type": "dv",
+   "text": "Digital Voice Centre of Activity",
+   "src": "iaru"
+  },
+  {
+   "band": "40m",
+   "f": 7.074,
+   "type": "digital",
+   "text": "FT8, Dial-Frequenz (USB)",
+   "src": "darc17"
+  },
+  {
+   "band": "40m",
+   "f": 7.09,
+   "type": "qrp",
+   "text": "SSB QRP Centre of Activity",
+   "src": "iaru"
+  },
+  {
+   "band": "40m",
+   "f": 7.11,
+   "type": "emergency",
+   "text": "Region 1 Emergency Centre",
+   "src": "iaru"
+  },
+  {
+   "band": "40m",
+   "f": 7.165,
+   "type": "image",
+   "text": "Image Centre of Activity",
+   "src": "iaru"
+  },
+  {
+   "band": "30m",
+   "f": 10.116,
+   "type": "qrp",
+   "text": "CW QRP Centre of Activity",
+   "src": "iaru"
+  },
+  {
+   "band": "30m",
+   "f": 10.136,
+   "type": "digital",
+   "text": "FT8, Dial-Frequenz (USB)",
+   "src": "darc17"
+  },
+  {
+   "band": "20m",
+   "f": 14.055,
+   "type": "cw",
+   "text": "QRS Centre of Activity",
+   "src": "iaru"
+  },
+  {
+   "band": "20m",
+   "f": 14.06,
+   "type": "qrp",
+   "text": "CW QRP Centre of Activity",
+   "src": "iaru"
+  },
+  {
+   "band": "20m",
+   "f": 14.074,
+   "type": "digital",
+   "text": "FT8, Dial-Frequenz (USB)",
+   "src": "darc17"
+  },
+  {
+   "band": "20m",
+   "f": 14.13,
+   "type": "dv",
+   "text": "Digital Voice Centre of Activity",
+   "src": "iaru"
+  },
+  {
+   "band": "20m",
+   "f": 14.195,
+   "type": "dx",
+   "text": "Priority for DX-peditions (±5 kHz)",
+   "src": "iaru"
+  },
+  {
+   "band": "20m",
+   "f": 14.23,
+   "type": "image",
+   "text": "Image Centre of Activity",
+   "src": "iaru"
+  },
+  {
+   "band": "20m",
+   "f": 14.285,
+   "type": "qrp",
+   "text": "SSB QRP Centre of Activity",
+   "src": "iaru"
+  },
+  {
+   "band": "20m",
+   "f": 14.3,
+   "type": "emergency",
+   "text": "Global Emergency Centre of Activity",
+   "src": "iaru"
+  },
+  {
+   "band": "17m",
+   "f": 18.086,
+   "type": "qrp",
+   "text": "CW QRP Centre of Activity",
+   "src": "iaru"
+  },
+  {
+   "band": "17m",
+   "f": 18.1,
+   "type": "digital",
+   "text": "FT8, Dial-Frequenz (USB)",
+   "src": "darc17"
+  },
+  {
+   "band": "17m",
+   "f": 18.13,
+   "type": "qrp",
+   "text": "SSB QRP Centre of Activity",
+   "src": "iaru"
+  },
+  {
+   "band": "17m",
+   "f": 18.15,
+   "type": "dv",
+   "text": "Digital Voice Centre of Activity",
+   "src": "iaru"
+  },
+  {
+   "band": "17m",
+   "f": 18.16,
+   "type": "emergency",
+   "text": "Emergency Centre of Activity",
+   "src": "iaru"
+  },
+  {
+   "band": "15m",
+   "f": 21.055,
+   "type": "cw",
+   "text": "QRS Centre of Activity",
+   "src": "iaru"
+  },
+  {
+   "band": "15m",
+   "f": 21.06,
+   "type": "qrp",
+   "text": "CW QRP Centre of Activity",
+   "src": "iaru"
+  },
+  {
+   "band": "15m",
+   "f": 21.074,
+   "type": "digital",
+   "text": "FT8, Dial-Frequenz (USB)",
+   "src": "darc17"
+  },
+  {
+   "band": "15m",
+   "f": 21.18,
+   "type": "dv",
+   "text": "Digital Voice Centre of Activity",
+   "src": "iaru"
+  },
+  {
+   "band": "15m",
+   "f": 21.285,
+   "type": "qrp",
+   "text": "SSB QRP Centre of Activity",
+   "src": "iaru"
+  },
+  {
+   "band": "15m",
+   "f": 21.34,
+   "type": "image",
+   "text": "Image Centre of Activity",
+   "src": "iaru"
+  },
+  {
+   "band": "15m",
+   "f": 21.36,
+   "type": "emergency",
+   "text": "Global Emergency Centre of Activity",
+   "src": "iaru"
+  },
+  {
+   "band": "12m",
+   "f": 24.906,
+   "type": "qrp",
+   "text": "CW QRP Centre of Activity",
+   "src": "iaru"
+  },
+  {
+   "band": "12m",
+   "f": 24.915,
+   "type": "digital",
+   "text": "FT8, Dial-Frequenz (USB)",
+   "src": "darc17"
+  },
+  {
+   "band": "12m",
+   "f": 24.95,
+   "type": "qrp",
+   "text": "SSB QRP Centre of Activity",
+   "src": "iaru"
+  },
+  {
+   "band": "12m",
+   "f": 24.96,
+   "type": "dv",
+   "text": "Digital Voice Centre of Activity",
+   "src": "iaru"
+  },
+  {
+   "band": "10m",
+   "f": 28.055,
+   "type": "cw",
+   "text": "QRS Centre of Activity",
+   "src": "iaru"
+  },
+  {
+   "band": "10m",
+   "f": 28.06,
+   "type": "qrp",
+   "text": "CW QRP Centre of Activity",
+   "src": "iaru"
+  },
+  {
+   "band": "10m",
+   "f": 28.074,
+   "type": "digital",
+   "text": "FT8, Dial-Frequenz (USB)",
+   "src": "darc17"
+  },
+  {
+   "band": "10m",
+   "f": 28.33,
+   "type": "dv",
+   "text": "Digital Voice Centre of Activity",
+   "src": "iaru"
+  },
+  {
+   "band": "10m",
+   "f": 28.36,
+   "type": "qrp",
+   "text": "SSB QRP Centre of Activity",
+   "src": "iaru"
+  },
+  {
+   "band": "10m",
+   "f": 28.68,
+   "type": "image",
+   "text": "Image Centre of Activity",
+   "src": "iaru"
+  },
+  {
+   "band": "10m",
+   "f": 29.6,
+   "type": "fm",
+   "text": "FM Calling channel",
+   "src": "iaru"
+  },
+  {
+   "band": "6m",
+   "f": 50.05,
+   "type": "cw",
+   "text": "Telegraphy Centre of Activity",
+   "src": "iaru"
+  },
+  {
+   "band": "6m",
+   "f": 50.09,
+   "type": "dx",
+   "text": "Intercontinental Centre of Activity (CW)",
+   "src": "iaru"
+  },
+  {
+   "band": "6m",
+   "f": 50.11,
+   "type": "dx",
+   "text": "Intercontinental SSB Centre of Activity (DX-Anruf)",
+   "src": "iaru"
+  },
+  {
+   "band": "6m",
+   "f": 50.15,
+   "type": "ssb",
+   "text": "International SSB/CW Centre of Activity",
+   "src": "iaru"
+  },
+  {
+   "band": "6m",
+   "f": 50.305,
+   "type": "digital",
+   "text": "PSK Centre of Activity",
+   "src": "iaru"
+  },
+  {
+   "band": "6m",
+   "f": 50.51,
+   "type": "image",
+   "text": "SSTV",
+   "src": "iaru"
+  },
+  {
+   "band": "6m",
+   "f": 50.6,
+   "type": "digital",
+   "text": "RTTY (FSK)",
+   "src": "iaru"
+  },
+  {
+   "band": "6m",
+   "f": 50.63,
+   "type": "dv",
+   "text": "Digital Voice (DV) calling",
+   "src": "iaru"
+  },
+  {
+   "band": "6m",
+   "f": 51.51,
+   "type": "fm",
+   "text": "FM calling frequency",
+   "src": "iaru"
+  },
+  {
+   "band": "4m",
+   "f": 70.2,
+   "type": "ssb",
+   "text": "Centre of Activity CW/SSB calling",
+   "src": "iaru"
+  },
+  {
+   "band": "4m",
+   "f": 70.25,
+   "type": "weak",
+   "text": "Centre of Activity Meteor Scatter",
+   "src": "iaru"
+  },
+  {
+   "band": "4m",
+   "f": 70.26,
+   "type": "fm",
+   "text": "AM/FM calling",
+   "src": "iaru"
+  },
+  {
+   "band": "4m",
+   "f": 70.45,
+   "type": "fm",
+   "text": "FM calling",
+   "src": "iaru"
+  },
+  {
+   "band": "2m",
+   "f": 144.05,
+   "type": "cw",
+   "text": "Telegraphy calling",
+   "src": "iaru"
+  },
+  {
+   "band": "2m",
+   "f": 144.1,
+   "type": "weak",
+   "text": "Random MS",
+   "src": "iaru"
+  },
+  {
+   "band": "2m",
+   "f": 144.3,
+   "type": "ssb",
+   "text": "SSB Centre of Activity",
+   "src": "iaru"
+  },
+  {
+   "band": "2m",
+   "f": 144.5,
+   "type": "image",
+   "text": "Image mode centre (SSTV, Fax, …)",
+   "src": "iaru"
+  },
+  {
+   "band": "2m",
+   "f": 144.6,
+   "type": "digital",
+   "text": "Data centre of activity (MGM, RTTY, …)",
+   "src": "iaru"
+  },
+  {
+   "band": "2m",
+   "f": 144.8,
+   "type": "aprs",
+   "text": "APRS",
+   "src": "iaru"
+  },
+  {
+   "band": "2m",
+   "f": 145.375,
+   "type": "dv",
+   "text": "Digital voice calling",
+   "src": "iaru"
+  },
+  {
+   "band": "2m",
+   "f": 145.5,
+   "type": "fm",
+   "text": "FM calling",
+   "src": "iaru"
+  },
+  {
+   "band": "70cm",
+   "f": 432.05,
+   "type": "cw",
+   "text": "Telegraphy Centre of Activity",
+   "src": "iaru"
+  },
+  {
+   "band": "70cm",
+   "f": 432.2,
+   "type": "ssb",
+   "text": "SSB Centre of Activity",
+   "src": "iaru"
+  },
+  {
+   "band": "70cm",
+   "f": 432.37,
+   "type": "weak",
+   "text": "Meteor Scatter Centre of Activity",
+   "src": "iaru"
+  },
+  {
+   "band": "70cm",
+   "f": 432.5,
+   "type": "aprs",
+   "text": "New APRS frequency",
+   "src": "iaru"
+  },
+  {
+   "band": "70cm",
+   "f": 433.4,
+   "type": "image",
+   "text": "SSTV (FM/AFSK)",
+   "src": "iaru"
+  },
+  {
+   "band": "70cm",
+   "f": 433.45,
+   "type": "dv",
+   "text": "Digital Voice calling",
+   "src": "iaru"
+  },
+  {
+   "band": "70cm",
+   "f": 433.5,
+   "type": "fm",
+   "text": "FM calling",
+   "src": "iaru"
+  },
+  {
+   "band": "23cm",
+   "f": 1296.2,
+   "type": "ssb",
+   "text": "Narrow band centre of activity",
+   "src": "iaru"
+  },
+  {
+   "band": "23cm",
+   "f": 1296.5,
+   "type": "image",
+   "text": "Fax",
+   "src": "iaru"
+  },
+  {
+   "band": "23cm",
+   "f": 1296.6,
+   "type": "digital",
+   "text": "Narrowband data centre of activity (MGM, RTTY, …)",
+   "src": "iaru"
+  },
+  {
+   "band": "23cm",
+   "f": 1297.5,
+   "type": "fm",
+   "text": "Centre of FM activity",
+   "src": "iaru"
+  },
+  {
+   "band": "23cm",
+   "f": 1297.725,
+   "type": "dv",
+   "text": "Digital voice calling frequency",
+   "src": "iaru"
+  },
+  {
+   "band": "13cm",
+   "f": 2320.2,
+   "type": "ssb",
+   "text": "SSB Centre of Activity",
+   "src": "iaru"
+  },
+  {
+   "band": "6cm",
+   "f": 5760.2,
+   "type": "ssb",
+   "text": "Narrow band centre of activity",
+   "src": "iaru"
+  },
+  {
+   "band": "3cm",
+   "f": 10368.2,
+   "type": "ssb",
+   "text": "Narrow band centre of activity",
+   "src": "iaru"
+  }
+ ]
+}

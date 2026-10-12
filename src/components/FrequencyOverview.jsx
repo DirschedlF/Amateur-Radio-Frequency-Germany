@@ -16,6 +16,7 @@ import { downloadCsv } from '../utils/exportCsv'
 import { DisclaimerBanner, DisclaimerFull } from './DisclaimerBanner'
 import { InfoPanels } from './InfoPanels'
 import BandplanView from './BandplanView'
+import HotspotsView from './HotspotsView'
 
 const CLASSES = ['A', 'E', 'N']
 
@@ -124,7 +125,7 @@ export default function FrequencyOverview() {
   const [status, setStatus] = useState('all')
   const [range, setRange] = useState('all')
   const [sort, setSort] = useState({ key: 'nr', dir: 1 })
-  const [view, setView] = useState(() => (window.location.hash === '#bandplan' ? 'bandplan' : 'anlage'))
+  const [view, setView] = useState(() => (window.location.hash === '#bandplan' ? 'bandplan' : window.location.hash === '#hotspots' ? 'hotspots' : 'anlage'))
   const searchRef = useRef(null)
 
   const counts = useMemo(
@@ -190,7 +191,7 @@ export default function FrequencyOverview() {
   const switchView = (k) => {
     setView(k)
     try {
-      window.history.replaceState(null, '', k === 'bandplan' ? '#bandplan' : window.location.pathname + window.location.search)
+      window.history.replaceState(null, '', k === 'anlage' ? window.location.pathname + window.location.search : `#${k}`)
     } catch {
       /* ignore */
     }
@@ -237,6 +238,7 @@ export default function FrequencyOverview() {
         {[
           ['anlage', 'Anlage 1 AFuV (gesetzlich)'],
           ['bandplan', 'Bandplan IARU Region 1 (Empfehlung)'],
+          ['hotspots', 'Aktivitätsfrequenzen (Empfehlung)'],
         ].map(([k, label]) => (
           <button
             key={k}
@@ -256,6 +258,8 @@ export default function FrequencyOverview() {
 
       {view === 'bandplan' ? (
         <BandplanView />
+      ) : view === 'hotspots' ? (
+        <HotspotsView />
       ) : (
         <>
 
